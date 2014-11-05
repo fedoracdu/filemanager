@@ -1,0 +1,35 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	tools:context="com.example.filemanager.MainActivity" >
+	
+	<item
+		android:id="@+id/delete"
+		android:orderInCategory="100"
+		android:showAsAction="always"
+		android:title="@string/delete"/>
+	
+	<item 
+		android:id="@+id/property"
+		android:orderInCategory="100"
+		android:showAsAction="always"
+		android:title="@string/property" />
+	
+	<item
+		android:id="@+id/refresh"
+		android:orderInCategory="100"
+		android:showAsAction="ifRoom"
+		android:title="@string/refresh" />
+	
+	<item
+		android:id="@+id/action_settings"
+		android:orderInCategory="100"
+		android:showAsAction="ifRoom"
+		android:title="@string/action_settings"/>
+	
+	<item
+		android:id="@+id/exit"
+		android:orderInCategory="100"
+		android:showAsAction="ifRoom"
+		android:title="@string/exit"/>
+
+</menu>

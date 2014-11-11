@@ -16,9 +16,11 @@ LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_MODULE    := file-operation
-LOCAL_SRC_FILES := file-operation.c
+SRC_FILES := $(wildcard $(LOCAL_PATH)/*.c)
 
-LOCAL_LDLIBS += -L$(SYSROOT)/usr/lib -llog
+LOCAL_MODULE    := file-operation
+LOCAL_SRC_FILES := $(SRC_FILES)
+
+LOCAL_LDLIBS += -L$(SYSROOT)/usr/lib -llog -lz
 
 include $(BUILD_SHARED_LIBRARY)

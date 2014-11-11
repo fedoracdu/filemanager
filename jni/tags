@@ -1,0 +1,1205 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALLOC_CHUNK	apprentice.c	1167;"	d	file:
+ALLOC_CHUNK	vasprintf.c	123;"	d	file:
+ALLOC_INCR	apprentice.c	1168;"	d	file:
+ALLOC_SECURITY_MARGIN	vasprintf.c	124;"	d	file:
+APPTYPE	apptype.c	/^typedef ULONG   APPTYPE;$/;"	t	file:
+AV_386_AHF	readelf.h	324;"	d
+AV_386_AMD_3DNow	readelf.h	315;"	d
+AV_386_AMD_3DNowx	readelf.h	316;"	d
+AV_386_AMD_LZCNT	readelf.h	328;"	d
+AV_386_AMD_MMX	readelf.h	314;"	d
+AV_386_AMD_SSE4A	readelf.h	326;"	d
+AV_386_AMD_SYSC	readelf.h	311;"	d
+AV_386_CMOV	readelf.h	312;"	d
+AV_386_CX16	readelf.h	323;"	d
+AV_386_CX8	readelf.h	309;"	d
+AV_386_FPU	readelf.h	307;"	d
+AV_386_FXSR	readelf.h	317;"	d
+AV_386_MMX	readelf.h	313;"	d
+AV_386_MON	readelf.h	322;"	d
+AV_386_PAUSE	readelf.h	320;"	d
+AV_386_POPCNT	readelf.h	327;"	d
+AV_386_SEP	readelf.h	310;"	d
+AV_386_SSE	readelf.h	318;"	d
+AV_386_SSE2	readelf.h	319;"	d
+AV_386_SSE3	readelf.h	321;"	d
+AV_386_SSE4_1	readelf.h	330;"	d
+AV_386_SSE4_2	readelf.h	331;"	d
+AV_386_SSSE3	readelf.h	329;"	d
+AV_386_TSC	readelf.h	308;"	d
+AV_386_TSCP	readelf.h	325;"	d
+AV_SPARC_ASI_BLK_INIT	readelf.h	301;"	d
+AV_SPARC_DIV32	readelf.h	295;"	d
+AV_SPARC_FJFMAU	readelf.h	303;"	d
+AV_SPARC_FMAF	readelf.h	302;"	d
+AV_SPARC_FSMULD	readelf.h	296;"	d
+AV_SPARC_IMA	readelf.h	304;"	d
+AV_SPARC_MUL32	readelf.h	294;"	d
+AV_SPARC_POPC	readelf.h	298;"	d
+AV_SPARC_V8PLUS	readelf.h	297;"	d
+AV_SPARC_VIS	readelf.h	299;"	d
+AV_SPARC_VIS2	readelf.h	300;"	d
+BADARG	getopt_long.c	86;"	d	file:
+BADCH	getopt_long.c	85;"	d	file:
+BINTEST	file.h	155;"	d
+BIT	file.h	291;"	d
+BUILTIN_DECOMPRESS	compress.c	58;"	d	file:
+BUILTIN_ELF	config.h	5;"	d
+CAST	file.h	337;"	d
+CAST	file.h	340;"	d
+CA_SUNW_HW_1	readelf.h	285;"	d
+CA_SUNW_NULL	readelf.h	284;"	d
+CA_SUNW_SF_1	readelf.h	286;"	d
+CDF_ARRAY	cdf.h	236;"	d
+CDF_BASE_YEAR	cdf.h	88;"	d
+CDF_BLOB	cdf.h	227;"	d
+CDF_BLOB_OBJECT	cdf.h	232;"	d
+CDF_BOOL	cdf.h	206;"	d
+CDF_BSTR	cdf.h	203;"	d
+CDF_BYREF	cdf.h	237;"	d
+CDF_CARRAY	cdf.h	222;"	d
+CDF_CLIPBOARD	cdf.h	233;"	d
+CDF_CLSID	cdf.h	234;"	d
+CDF_CY	cdf.h	201;"	d
+CDF_DATE	cdf.h	202;"	d
+CDF_DECIMAL	cdf.h	209;"	d
+CDF_DIRECTORY_SIZE	cdf.h	116;"	d
+CDF_DIRID_NULL	cdf.h	85;"	d
+CDF_DIR_COLOR_BLACK	cdf.h	103;"	d
+CDF_DIR_COLOR_READ	cdf.h	102;"	d
+CDF_DIR_TYPE_EMPTY	cdf.h	95;"	d
+CDF_DIR_TYPE_LOCKBYTES	cdf.h	98;"	d
+CDF_DIR_TYPE_PROPERTY	cdf.h	99;"	d
+CDF_DIR_TYPE_ROOT_STORAGE	cdf.h	100;"	d
+CDF_DIR_TYPE_USER_STORAGE	cdf.h	96;"	d
+CDF_DIR_TYPE_USER_STREAM	cdf.h	97;"	d
+CDF_DISPATCH	cdf.h	204;"	d
+CDF_DOUBLE	cdf.h	200;"	d
+CDF_EMPTY	cdf.h	195;"	d
+CDF_ERROR	cdf.h	205;"	d
+CDF_FILETIME	cdf.h	226;"	d
+CDF_FLOAT	cdf.h	199;"	d
+CDF_GETUINT32	cdf.c	76;"	d	file:
+CDF_HRESULT	cdf.h	219;"	d
+CDF_ILLEGAL	cdf.h	239;"	d
+CDF_ILLEGALMASKED	cdf.h	240;"	d
+CDF_INT	cdf.h	216;"	d
+CDF_LENGTH32_STRING	cdf.h	224;"	d
+CDF_LENGTH32_WSTRING	cdf.h	225;"	d
+CDF_LOOP_LIMIT	cdf.h	50;"	d
+CDF_MAGIC	cdf.h	60;"	d
+CDF_NULL	cdf.h	196;"	d
+CDF_PROPERTY_AUTHOR	cdf.h	246;"	d
+CDF_PROPERTY_CODE_PAGE	cdf.h	243;"	d
+CDF_PROPERTY_COMMENTS	cdf.h	248;"	d
+CDF_PROPERTY_CREATE_TIME	cdf.h	254;"	d
+CDF_PROPERTY_KEYWORDS	cdf.h	247;"	d
+CDF_PROPERTY_LAST_PRINTED	cdf.h	253;"	d
+CDF_PROPERTY_LAST_SAVED_BY	cdf.h	250;"	d
+CDF_PROPERTY_LAST_SAVED_TIME	cdf.h	255;"	d
+CDF_PROPERTY_LOCALE_ID	cdf.h	262;"	d
+CDF_PROPERTY_NAME_OF_APPLICATION	cdf.h	260;"	d
+CDF_PROPERTY_NUMBER_OF_CHARACTERS	cdf.h	258;"	d
+CDF_PROPERTY_NUMBER_OF_PAGES	cdf.h	256;"	d
+CDF_PROPERTY_NUMBER_OF_WORDS	cdf.h	257;"	d
+CDF_PROPERTY_REVISION_NUMBER	cdf.h	251;"	d
+CDF_PROPERTY_SECURITY	cdf.h	261;"	d
+CDF_PROPERTY_SUBJECT	cdf.h	245;"	d
+CDF_PROPERTY_TEMPLATE	cdf.h	249;"	d
+CDF_PROPERTY_THUMBNAIL	cdf.h	259;"	d
+CDF_PROPERTY_TITLE	cdf.h	244;"	d
+CDF_PROPERTY_TOTAL_EDITING_TIME	cdf.h	252;"	d
+CDF_PROP_LIMIT	cdf.c	776;"	d	file:
+CDF_PTR	cdf.h	220;"	d
+CDF_RESERVED	cdf.h	238;"	d
+CDF_ROUND	cdf.h	192;"	d
+CDF_SAFEARRAY	cdf.h	221;"	d
+CDF_SECID_END_OF_CHAIN	cdf.h	54;"	d
+CDF_SECID_FREE	cdf.h	53;"	d
+CDF_SECID_MASTER_SECTOR_ALLOCATION_TABLE	cdf.h	56;"	d
+CDF_SECID_NULL	cdf.h	52;"	d
+CDF_SECID_SECTOR_ALLOCATION_TABLE	cdf.h	55;"	d
+CDF_SECTION_DECLARATION_OFFSET	cdf.h	150;"	d
+CDF_SEC_LIMIT	cdf.c	386;"	d	file:
+CDF_SEC_POS	cdf.h	80;"	d
+CDF_SEC_SIZE	cdf.h	79;"	d
+CDF_SHLEN_LIMIT	cdf.c	770;"	d	file:
+CDF_SHORT_SEC_POS	cdf.h	82;"	d
+CDF_SHORT_SEC_SIZE	cdf.h	81;"	d
+CDF_SIGNED16	cdf.h	197;"	d
+CDF_SIGNED32	cdf.h	198;"	d
+CDF_SIGNED64	cdf.h	214;"	d
+CDF_SIGNED8	cdf.h	210;"	d
+CDF_STORAGE	cdf.h	229;"	d
+CDF_STORED_OBJECT	cdf.h	231;"	d
+CDF_STREAM	cdf.h	228;"	d
+CDF_STREAMED_OBJECT	cdf.h	230;"	d
+CDF_TIME_PREC	cdf.h	89;"	d
+CDF_TOLE2	cdf.c	75;"	d	file:
+CDF_TOLE4	cdf.c	74;"	d	file:
+CDF_TOLE8	cdf.c	73;"	d	file:
+CDF_TYPEMASK	cdf.h	241;"	d
+CDF_UINT	cdf.h	217;"	d
+CDF_UNKNOWN	cdf.h	208;"	d
+CDF_UNPACK	cdf.c	141;"	d	file:
+CDF_UNPACKA	cdf.c	143;"	d	file:
+CDF_UNSIGNED16	cdf.h	212;"	d
+CDF_UNSIGNED32	cdf.h	213;"	d
+CDF_UNSIGNED64	cdf.h	215;"	d
+CDF_UNSIGNED8	cdf.h	211;"	d
+CDF_USERDEFINED	cdf.h	223;"	d
+CDF_VARIANT	cdf.h	207;"	d
+CDF_VECTOR	cdf.h	235;"	d
+CDF_VOID	cdf.h	218;"	d
+CHAR_BINTEST	file.h	314;"	d
+CHAR_COMPACT_OPTIONAL_WHITESPACE	file.h	309;"	d
+CHAR_COMPACT_WHITESPACE	file.h	308;"	d
+CHAR_IGNORE_LOWERCASE	file.h	310;"	d
+CHAR_IGNORE_UPPERCASE	file.h	311;"	d
+CHAR_PSTRING_1_BE	file.h	315;"	d
+CHAR_PSTRING_1_LE	file.h	316;"	d
+CHAR_PSTRING_2_BE	file.h	317;"	d
+CHAR_PSTRING_2_LE	file.h	318;"	d
+CHAR_PSTRING_4_BE	file.h	319;"	d
+CHAR_PSTRING_4_LE	file.h	320;"	d
+CHAR_PSTRING_LENGTH_INCLUDES_ITSELF	file.h	321;"	d
+CHAR_REGEX_OFFSET_START	file.h	312;"	d
+CHAR_TEXTTEST	file.h	313;"	d
+COND_ELIF	file.h	260;"	d
+COND_ELSE	file.h	261;"	d
+COND_IF	file.h	259;"	d
+COND_NONE	file.h	258;"	d
+DECLARE_FIELD	apprentice.c	123;"	d	file:
+DECLARE_FIELD	apprentice.c	127;"	d	file:
+DESTTXT	vasprintf.c	306;"	d	file:
+DESTTXT	vasprintf.c	538;"	d	file:
+DO_CVT	softmagic.c	684;"	d	file:
+DO_CVT2	softmagic.c	739;"	d	file:
+DPRINTF	cdf.c	61;"	d	file:
+DPRINTF	encoding.c	56;"	d	file:
+DPRINTF	encoding.c	58;"	d	file:
+DUMP	cdf.c	1068;"	d	file:
+DUMP2	cdf.c	1069;"	d	file:
+EATAB	apprentice.c	49;"	d	file:
+EFTYPE	cdf.c	55;"	d	file:
+EI_CLASS	readelf.h	133;"	d
+EI_DATA	readelf.h	134;"	d
+EI_MAG0	readelf.h	129;"	d
+EI_MAG1	readelf.h	130;"	d
+EI_MAG2	readelf.h	131;"	d
+EI_MAG3	readelf.h	132;"	d
+EI_NIDENT	readelf.h	62;"	d
+EI_PAD	readelf.h	136;"	d
+EI_VERSION	readelf.h	135;"	d
+ELFCLASS32	readelf.h	125;"	d
+ELFCLASS64	readelf.h	126;"	d
+ELFCLASSNONE	readelf.h	124;"	d
+ELFCORE	config.h	8;"	d
+ELFDATA2LSB	readelf.h	120;"	d
+ELFDATA2MSB	readelf.h	121;"	d
+ELFDATANONE	readelf.h	119;"	d
+ELFMAG	readelf.h	142;"	d
+ELFMAG0	readelf.h	138;"	d
+ELFMAG1	readelf.h	139;"	d
+ELFMAG2	readelf.h	140;"	d
+ELFMAG3	readelf.h	141;"	d
+ELF_ALIGN	readelf.c	55;"	d	file:
+EMSG	getopt_long.c	90;"	d	file:
+EM_386	readelf.h	106;"	d
+EM_AMD64	readelf.h	110;"	d
+EM_IA_64	readelf.h	109;"	d
+EM_SPARC	readelf.h	105;"	d
+EM_SPARC32PLUS	readelf.h	107;"	d
+EM_SPARCV9	readelf.h	108;"	d
+ENABLE_CONDITIONALS	file.h	69;"	d
+ET_CORE	readelf.h	102;"	d
+ET_DYN	readelf.h	101;"	d
+ET_EXEC	readelf.h	100;"	d
+ET_REL	readelf.h	99;"	d
+EVENT_HAD_ERR	file.h	366;"	d
+Elf32_Addr	readelf.h	/^typedef uint32_t	Elf32_Addr;$/;"	t
+Elf32_Cap	readelf.h	/^} Elf32_Cap;$/;"	t	typeref:struct:__anon15
+Elf32_Char	readelf.h	/^typedef uint8_t		Elf32_Char;$/;"	t
+Elf32_Ehdr	readelf.h	/^} Elf32_Ehdr;$/;"	t	typeref:struct:__anon8
+Elf32_Half	readelf.h	/^typedef uint16_t	Elf32_Half;$/;"	t
+Elf32_Nhdr	readelf.h	/^} Elf32_Nhdr;$/;"	t	typeref:struct:elf_note
+Elf32_Off	readelf.h	/^typedef uint32_t	Elf32_Off;$/;"	t
+Elf32_Phdr	readelf.h	/^} Elf32_Phdr;$/;"	t	typeref:struct:__anon10
+Elf32_Shdr	readelf.h	/^} Elf32_Shdr;$/;"	t	typeref:struct:__anon12
+Elf32_Word	readelf.h	/^typedef uint32_t	Elf32_Word;$/;"	t
+Elf64_Addr	readelf.h	/^typedef	uint32_t 	Elf64_Addr[2];$/;"	t
+Elf64_Addr	readelf.h	/^typedef	uint64_t 	Elf64_Addr;$/;"	t
+Elf64_Cap	readelf.h	/^} Elf64_Cap;$/;"	t	typeref:struct:__anon17
+Elf64_Char	readelf.h	/^typedef uint8_t		Elf64_Char;$/;"	t
+Elf64_Ehdr	readelf.h	/^} Elf64_Ehdr;$/;"	t	typeref:struct:__anon9
+Elf64_Half	readelf.h	/^typedef uint16_t	Elf64_Half;$/;"	t
+Elf64_Nhdr	readelf.h	/^} Elf64_Nhdr;$/;"	t	typeref:struct:__anon14
+Elf64_Off	readelf.h	/^typedef	uint32_t 	Elf64_Off[2];$/;"	t
+Elf64_Off	readelf.h	/^typedef	uint64_t 	Elf64_Off;$/;"	t
+Elf64_Phdr	readelf.h	/^} Elf64_Phdr;$/;"	t	typeref:struct:__anon11
+Elf64_Shdr	readelf.h	/^} Elf64_Shdr;$/;"	t	typeref:struct:__anon13
+Elf64_Word	readelf.h	/^typedef uint32_t	Elf64_Word;$/;"	t
+Elf64_Xword	readelf.h	/^typedef uint32_t 	Elf64_Xword[2];$/;"	t
+Elf64_Xword	readelf.h	/^typedef uint64_t 	Elf64_Xword;$/;"	t
+F	encoding.c	193;"	d	file:
+F	encoding.c	408;"	d	file:
+FCOMMENT	compress.c	310;"	d	file:
+FEXTRA	compress.c	308;"	d	file:
+FHCRC	compress.c	307;"	d	file:
+FILE_BEDATE	file.h	175;"	d
+FILE_BEDOUBLE	file.h	203;"	d
+FILE_BEFLOAT	file.h	200;"	d
+FILE_BEID3	file.h	205;"	d
+FILE_BELDATE	file.h	181;"	d
+FILE_BELONG	file.h	174;"	d
+FILE_BEQDATE	file.h	195;"	d
+FILE_BEQLDATE	file.h	198;"	d
+FILE_BEQUAD	file.h	192;"	d
+FILE_BESHORT	file.h	173;"	d
+FILE_BESTRING16	file.h	184;"	d
+FILE_BYTE	file.h	167;"	d
+FILE_CHECK	file.h	128;"	d
+FILE_COMPILE	file.h	129;"	d
+FILE_DATE	file.h	172;"	d
+FILE_DEFAULT	file.h	169;"	d
+FILE_DOUBLE	file.h	202;"	d
+FILE_FACTOR_OP_DIV	file.h	238;"	d
+FILE_FACTOR_OP_MINUS	file.h	236;"	d
+FILE_FACTOR_OP_NONE	file.h	239;"	d
+FILE_FACTOR_OP_PLUS	file.h	235;"	d
+FILE_FACTOR_OP_TIMES	file.h	237;"	d
+FILE_FLOAT	file.h	199;"	d
+FILE_FMT_DOUBLE	file.h	224;"	d
+FILE_FMT_FLOAT	file.h	223;"	d
+FILE_FMT_NONE	file.h	219;"	d
+FILE_FMT_NUM	file.h	220;"	d
+FILE_FMT_QUAD	file.h	222;"	d
+FILE_FMT_STR	file.h	221;"	d
+FILE_INDIRECT	file.h	207;"	d
+FILE_INVALID	file.h	166;"	d
+FILE_LDATE	file.h	180;"	d
+FILE_LEDATE	file.h	178;"	d
+FILE_LEDOUBLE	file.h	204;"	d
+FILE_LEFLOAT	file.h	201;"	d
+FILE_LEID3	file.h	206;"	d
+FILE_LELDATE	file.h	182;"	d
+FILE_LELONG	file.h	177;"	d
+FILE_LEQDATE	file.h	194;"	d
+FILE_LEQLDATE	file.h	197;"	d
+FILE_LEQUAD	file.h	191;"	d
+FILE_LESHORT	file.h	176;"	d
+FILE_LESTRING16	file.h	185;"	d
+FILE_LIST	file.h	130;"	d
+FILE_LOAD	file.h	127;"	d
+FILE_LONG	file.h	170;"	d
+FILE_MAGICSIZE	file.h	125;"	d
+FILE_MEDATE	file.h	187;"	d
+FILE_MELDATE	file.h	188;"	d
+FILE_MELONG	file.h	189;"	d
+FILE_NAMES_SIZE	file.h	208;"	d
+FILE_OPADD	file.h	245;"	d
+FILE_OPAND	file.h	242;"	d
+FILE_OPDIVIDE	file.h	248;"	d
+FILE_OPINDIRECT	file.h	255;"	d
+FILE_OPINVERSE	file.h	254;"	d
+FILE_OPMINUS	file.h	246;"	d
+FILE_OPMODULO	file.h	249;"	d
+FILE_OPMULTIPLY	file.h	247;"	d
+FILE_OPOR	file.h	243;"	d
+FILE_OPS	file.h	241;"	d
+FILE_OPS_MASK	file.h	250;"	d
+FILE_OPXOR	file.h	244;"	d
+FILE_PSTRING	file.h	179;"	d
+FILE_QDATE	file.h	193;"	d
+FILE_QLDATE	file.h	196;"	d
+FILE_QUAD	file.h	190;"	d
+FILE_RCSID	file.h	489;"	d
+FILE_RCSID	file.h	492;"	d
+FILE_RCSID	file.h	498;"	d
+FILE_REGEX	file.h	183;"	d
+FILE_SEARCH	file.h	186;"	d
+FILE_SHORT	file.h	168;"	d
+FILE_STRING	file.h	171;"	d
+FILE_UNUSED_1	file.h	251;"	d
+FILE_UNUSED_2	file.h	252;"	d
+FILE_UNUSED_3	file.h	253;"	d
+FLAGS_DID_BUILD_ID	readelf.c	288;"	d	file:
+FLAGS_DID_CORE	readelf.c	286;"	d	file:
+FLAGS_DID_CORE_STYLE	readelf.c	289;"	d	file:
+FLAGS_DID_NOTE	readelf.c	287;"	d	file:
+FLAGS_IS_CORE	readelf.c	290;"	d	file:
+FNAME	compress.c	309;"	d	file:
+GNUTMAGIC	tar.h	73;"	d
+GNU_OS_HURD	readelf.h	246;"	d
+GNU_OS_KFREEBSD	readelf.h	248;"	d
+GNU_OS_KNETBSD	readelf.h	249;"	d
+GNU_OS_LINUX	readelf.h	245;"	d
+GNU_OS_SOLARIS	readelf.h	247;"	d
+HAVE_ASPRINTF	config.h	11;"	d
+HAVE_DAYLIGHT	config.h	14;"	d
+HAVE_DECL_DAYLIGHT	config.h	18;"	d
+HAVE_DECL_TZNAME	config.h	22;"	d
+HAVE_DLFCN_H	config.h	25;"	d
+HAVE_ERR_H	config.h	28;"	d
+HAVE_FCNTL_H	config.h	31;"	d
+HAVE_FORK	config.h	34;"	d
+HAVE_FSEEKO	config.h	37;"	d
+HAVE_GETLINE	config.h	40;"	d
+HAVE_GETOPT_H	config.h	43;"	d
+HAVE_GETOPT_LONG	config.h	46;"	d
+HAVE_INT32_T	config.h	49;"	d
+HAVE_INT64_T	config.h	52;"	d
+HAVE_INTTYPES_H	config.h	55;"	d
+HAVE_LIBZ	config.h	61;"	d
+HAVE_LIMITS_H	config.h	64;"	d
+HAVE_LOCALE_H	config.h	67;"	d
+HAVE_MAJOR	fsmagic.c	47;"	d	file:
+HAVE_MAJOR	fsmagic.c	51;"	d	file:
+HAVE_MAJOR	fsmagic.c	54;"	d	file:
+HAVE_MAJOR	fsmagic.c	61;"	d	file:
+HAVE_MBRTOWC	config.h	70;"	d
+HAVE_MBSTATE_T	config.h	73;"	d
+HAVE_MEMORY_H	config.h	76;"	d
+HAVE_MKSTEMP	config.h	79;"	d
+HAVE_MMAP	config.h	82;"	d
+HAVE_PID_T	config.h	85;"	d
+HAVE_STDINT_H	config.h	88;"	d
+HAVE_STDLIB_H	config.h	91;"	d
+HAVE_STRERROR	config.h	94;"	d
+HAVE_STRINGS_H	config.h	97;"	d
+HAVE_STRING_H	config.h	100;"	d
+HAVE_STRNDUP	config.h	109;"	d
+HAVE_STRTOF	config.h	112;"	d
+HAVE_STRTOUL	config.h	115;"	d
+HAVE_STRUCT_OPTION	config.h	118;"	d
+HAVE_STRUCT_STAT_ST_RDEV	config.h	121;"	d
+HAVE_SYS_MMAN_H	config.h	130;"	d
+HAVE_SYS_STAT_H	config.h	133;"	d
+HAVE_SYS_TIME_H	config.h	136;"	d
+HAVE_SYS_TYPES_H	config.h	139;"	d
+HAVE_SYS_WAIT_H	config.h	145;"	d
+HAVE_TM_ISDST	config.h	148;"	d
+HAVE_TM_ZONE	config.h	151;"	d
+HAVE_TZNAME	config.h	154;"	d
+HAVE_UINT16_T	config.h	157;"	d
+HAVE_UINT32_T	config.h	160;"	d
+HAVE_UINT64_T	config.h	163;"	d
+HAVE_UINT8_T	config.h	166;"	d
+HAVE_UNISTD_H	config.h	169;"	d
+HAVE_UTIME	config.h	172;"	d
+HAVE_UTIMES	config.h	175;"	d
+HAVE_UTIME_H	config.h	178;"	d
+HAVE_VASPRINTF	config.h	181;"	d
+HAVE_WCHAR_H	config.h	184;"	d
+HAVE_WCTYPE_H	config.h	187;"	d
+HAVE_WCWIDTH	config.h	190;"	d
+HAVE_ZLIB_H	config.h	193;"	d
+HOWMANY	file.h	116;"	d
+I	encoding.c	195;"	d	file:
+I	encoding.c	410;"	d	file:
+IDENTICAL_INTERPRETATION	getopt_long.c	365;"	d	file:
+IDENTICAL_INTERPRETATION	getopt_long.c	497;"	d	file:
+IGNORE_FIRST	getopt_long.c	76;"	d	file:
+INCL_DOSERRORS	apptype.c	39;"	d	file:
+INCL_DOSFILEMGR	apptype.c	40;"	d	file:
+INCL_DOSSESMGR	apptype.c	38;"	d	file:
+INCOHERENT	vasprintf.c	309;"	d	file:
+INCOHERENT	vasprintf.c	535;"	d	file:
+INCOHERENT_TEST	vasprintf.c	310;"	d	file:
+INCOHERENT_TEST	vasprintf.c	536;"	d	file:
+INDIR	file.h	150;"	d
+INDIROFFADD	file.h	152;"	d
+INORDER	getopt_long.c	88;"	d	file:
+INT64_T_FORMAT	file.h	44;"	d
+INT64_T_FORMAT	file.h	47;"	d
+IN_ORDER	getopt_long.c	82;"	d	file:
+ISSPC	ascmagic.c	51;"	d	file:
+IS_POSIXLY_CORRECT	getopt_long.c	79;"	d	file:
+IS_STRING	file.h	210;"	d
+Java_com_example_filemanager_MainActivity_delFile	file-operation.c	/^jint Java_com_example_filemanager_MainActivity_delFile(JNIEnv* env, jobject thiz, jstring fileName)$/;"	f
+Java_com_example_filemanager_MainActivity_getFileType	file.c	/^jstring Java_com_example_filemanager_MainActivity_getFileType(JNIEnv* env, jobject thiz, jstring fileName)$/;"	f
+Java_com_example_filemanager_MainActivity_initMagic	file.c	/^jint Java_com_example_filemanager_MainActivity_initMagic(JNIEnv* env, jobject thiz, jstring fileName)$/;"	f
+LOCAL_MODULE	Android.mk	/^LOCAL_MODULE    := file-operation$/;"	m
+LOCAL_PATH	Android.mk	/^LOCAL_PATH := $(call my-dir)$/;"	m
+LOCAL_SRC_FILES	Android.mk	/^LOCAL_SRC_FILES := $(SRC_FILES)$/;"	m
+LOWCASE	apprentice.c	51;"	d	file:
+LT_OBJDIR	config.h	197;"	d
+MAGIC	file.h	72;"	d
+MAGICNO	file.h	123;"	d
+MAGIC_APPLE	magic.h	45;"	d
+MAGIC_CHECK	magic.h	39;"	d
+MAGIC_COMPRESS	magic.h	35;"	d
+MAGIC_CONTINUE	magic.h	38;"	d
+MAGIC_DEBUG	magic.h	33;"	d
+MAGIC_DEVICES	magic.h	36;"	d
+MAGIC_ERROR	magic.h	42;"	d
+MAGIC_MIME	magic.h	44;"	d
+MAGIC_MIME_ENCODING	magic.h	43;"	d
+MAGIC_MIME_TYPE	magic.h	37;"	d
+MAGIC_NONE	magic.h	32;"	d
+MAGIC_NO_CHECK_APPTYPE	magic.h	50;"	d
+MAGIC_NO_CHECK_ASCII	magic.h	71;"	d
+MAGIC_NO_CHECK_BUILTIN	magic.h	58;"	d
+MAGIC_NO_CHECK_CDF	magic.h	53;"	d
+MAGIC_NO_CHECK_COMPRESS	magic.h	47;"	d
+MAGIC_NO_CHECK_ELF	magic.h	51;"	d
+MAGIC_NO_CHECK_ENCODING	magic.h	55;"	d
+MAGIC_NO_CHECK_FORTRAN	magic.h	74;"	d
+MAGIC_NO_CHECK_SOFT	magic.h	49;"	d
+MAGIC_NO_CHECK_TAR	magic.h	48;"	d
+MAGIC_NO_CHECK_TEXT	magic.h	52;"	d
+MAGIC_NO_CHECK_TOKENS	magic.h	54;"	d
+MAGIC_NO_CHECK_TROFF	magic.h	75;"	d
+MAGIC_PRESERVE_ATIME	magic.h	40;"	d
+MAGIC_RAW	magic.h	41;"	d
+MAGIC_SYMLINK	magic.h	34;"	d
+MAP_FAILED	apprentice.c	59;"	d	file:
+MAP_FAILED	apprentice.c	64;"	d	file:
+MAP_FILE	apprentice.c	68;"	d	file:
+MAX	file.h	112;"	d
+MAXDESC	file.h	120;"	d
+MAXLINELEN	ascmagic.c	50;"	d	file:
+MAXMAGIS	file.h	118;"	d
+MAXstring	file.h	121;"	d
+MIN	file.h	108;"	d
+MSG_TAG	file.c	33;"	d	file:
+MULT	apprentice.c	401;"	d	file:
+NAMSIZ	tar.h	47;"	d
+NEED_SWAP	cdf.c	71;"	d	file:
+NODATA	compress.c	85;"	d	file:
+NOFFSETS	readelf.c	245;"	d	file:
+NOFFSETS32	readelf.c	242;"	d	file:
+NOFFSETS64	readelf.c	243;"	d	file:
+NOSPACE	file.h	154;"	d
+NOTMIME	readcdf.c	41;"	d	file:
+NT_AUXV	readelf.h	226;"	d
+NT_DRAGONFLY_VERSION	readelf.h	234;"	d
+NT_FREEBSD_VERSION	readelf.h	232;"	d
+NT_GNU_BUILD_ID	readelf.h	264;"	d
+NT_GNU_HWCAP	readelf.h	257;"	d
+NT_GNU_VERSION	readelf.h	242;"	d
+NT_NETBSD_CORE_PROCINFO	readelf.h	204;"	d
+NT_NETBSD_EMULATION	readelf.h	231;"	d
+NT_NETBSD_VERSION	readelf.h	230;"	d
+NT_OPENBSD_VERSION	readelf.h	233;"	d
+NT_PLATFORM	readelf.h	225;"	d
+NT_PRFPREG	readelf.h	221;"	d
+NT_PRPSINFO	readelf.h	222;"	d
+NT_PRSTATUS	readelf.h	220;"	d
+NT_PRXREG	readelf.h	223;"	d
+NT_TASKSTRUCT	readelf.h	224;"	d
+OCTALIFY	funcs.c	321;"	d	file:
+OFFADD	file.h	151;"	d
+OFFSET_OOB	softmagic.c	63;"	d	file:
+OLFMAG	readelf.h	145;"	d
+OLFMAG1	readelf.h	144;"	d
+OS_STYLE_FREEBSD	readelf.c	277;"	d	file:
+OS_STYLE_NETBSD	readelf.c	278;"	d	file:
+OS_STYLE_SVR4	readelf.c	276;"	d	file:
+O_BINARY	file.h	484;"	d
+PACKAGE	config.h	211;"	d
+PACKAGE_BUGREPORT	config.h	214;"	d
+PACKAGE_NAME	config.h	217;"	d
+PACKAGE_STRING	config.h	220;"	d
+PACKAGE_TARNAME	config.h	223;"	d
+PACKAGE_URL	config.h	226;"	d
+PACKAGE_VERSION	config.h	229;"	d
+PATHSEP	file.h	76;"	d
+PATHSEP	file.h	78;"	d
+PERMUTE	getopt_long.c	80;"	d	file:
+PIPE_BUF	magic.c	68;"	d	file:
+PRINT_ERROR	getopt_long.c	77;"	d	file:
+PSTRING_1_BE	file.h	299;"	d
+PSTRING_1_LE	file.h	300;"	d
+PSTRING_2_BE	file.h	301;"	d
+PSTRING_2_LE	file.h	302;"	d
+PSTRING_4_BE	file.h	303;"	d
+PSTRING_4_LE	file.h	304;"	d
+PSTRING_LEN	file.h	305;"	d
+PSTRING_LENGTH_INCLUDES_ITSELF	file.h	307;"	d
+PT_DYNAMIC	readelf.h	171;"	d
+PT_INTERP	readelf.h	172;"	d
+PT_LOAD	readelf.h	170;"	d
+PT_NOTE	readelf.h	173;"	d
+PT_NULL	readelf.h	169;"	d
+PT_NUM	readelf.h	176;"	d
+PT_PHDR	readelf.h	175;"	d
+PT_SHLIB	readelf.h	174;"	d
+QUICK	file.h	480;"	d
+RCAST	file.h	338;"	d
+RCAST	file.h	341;"	d
+RECORDSIZE	tar.h	46;"	d
+REGEX_OFFSET_START	file.h	296;"	d
+REG_STARTEND	softmagic.c	1875;"	d	file:
+REPLACE_GETOPT	getopt_long.c	53;"	d	file:
+RET	apprentice.c	2231;"	d	file:
+SF1_SUNW_FPKNWN	readelf.h	289;"	d
+SF1_SUNW_FPUSED	readelf.h	290;"	d
+SF1_SUNW_MASK	readelf.h	291;"	d
+SHT_DYNSYM	readelf.h	115;"	d
+SHT_NOTE	readelf.h	114;"	d
+SHT_SUNW_cap	readelf.h	116;"	d
+SHT_SYMTAB	readelf.h	113;"	d
+SIZEOF_LONG_LONG	config.h	232;"	d
+SIZE_MAX	funcs.c	49;"	d	file:
+SIZE_T_FORMAT	file.h	40;"	d
+SIZE_T_FORMAT	file.h	42;"	d
+SIZE_T_FORMAT	file.h	46;"	d
+SLOP	magic.c	393;"	d	file:
+SRCTXT	vasprintf.c	305;"	d	file:
+SRCTXT	vasprintf.c	537;"	d	file:
+SRC_FILES	Android.mk	/^SRC_FILES := $(wildcard $(LOCAL_PATH)\/*.c)$/;"	m
+STDC_HEADERS	config.h	235;"	d
+STDIN_FILENO	magic.c	84;"	d	file:
+STRING_BINTEST	file.h	298;"	d
+STRING_COMPACT_OPTIONAL_WHITESPACE	file.h	293;"	d
+STRING_COMPACT_WHITESPACE	file.h	292;"	d
+STRING_DEFAULT_RANGE	file.h	323;"	d
+STRING_IGNORE_CASE	file.h	322;"	d
+STRING_IGNORE_LOWERCASE	file.h	294;"	d
+STRING_IGNORE_UPPERCASE	file.h	295;"	d
+STRING_TEXTTEST	file.h	297;"	d
+SZOF	print.c	46;"	d	file:
+T	encoding.c	194;"	d	file:
+T	encoding.c	409;"	d	file:
+TEXTTEST	file.h	157;"	d
+TGNMLEN	tar.h	49;"	d
+TMAGIC	tar.h	72;"	d
+TUNMLEN	tar.h	48;"	d
+UNSIGNED	file.h	153;"	d
+USE_ARRAY_FOR_64BIT_TYPES	readelf.h	48;"	d
+USE_ARRAY_FOR_64BIT_TYPES	readelf.h	53;"	d
+VALUETYPE	file.h	/^union VALUETYPE {$/;"	u
+VERSION	config.h	263;"	d
+VERSIONNO	file.h	124;"	d
+X	encoding.c	196;"	d	file:
+X	encoding.c	411;"	d	file:
+XX	apprentice.c	170;"	d	file:
+XX	apprentice.c	214;"	d	file:
+XX_NULL	apprentice.c	171;"	d	file:
+XX_NULL	apprentice.c	215;"	d	file:
+_ALL_SOURCE	config.h	242;"	d
+_DIAGASSERT	getopt_long.c	56;"	d	file:
+_GETOPT_H_	mygetopt.h	40;"	d
+_GNU_SOURCE	config.h	246;"	d
+_H_CDF_	cdf.h	36;"	d
+_MAGIC_H	magic.h	28;"	d
+_POSIX_PTHREAD_SEMANTICS	config.h	250;"	d
+_TANDEM_SOURCE	config.h	254;"	d
+__EXTENSIONS__	config.h	258;"	d
+__GNUC_PREREQ__	file.h	93;"	d
+__GNUC_PREREQ__	file.h	97;"	d
+__STDC_LIMIT_MACROS	file.h	55;"	d
+__arraycount	file.h	88;"	d
+__attribute__	file.h	103;"	d
+__fake_elf_h__	readelf.h	35;"	d
+__file_h__	file.h	34;"	d
+_cdf_tole2	cdf.c	/^_cdf_tole2(uint16_t sv)$/;"	f	file:
+_cdf_tole4	cdf.c	/^_cdf_tole4(uint32_t sv)$/;"	f	file:
+_cdf_tole8	cdf.c	/^_cdf_tole8(uint64_t sv)$/;"	f	file:
+_count	file.h	/^			uint32_t _count;	\/* repeat\/line count *\/$/;"	m	struct:magic::__anon4::__anon5
+_flags	file.h	/^			uint32_t _flags;	\/* modifier flags *\/$/;"	m	struct:magic::__anon4::__anon5
+_mask	file.h	/^		uint64_t _mask;	\/* for use with numeric and date types *\/$/;"	m	union:magic::__anon4
+_pi_d	cdf.h	/^		double		_pi_d;$/;"	m	union:__anon28::__anon29
+_pi_f	cdf.h	/^		float		_pi_f;$/;"	m	union:__anon28::__anon29
+_pi_s16	cdf.h	/^		int16_t		_pi_s16;$/;"	m	union:__anon28::__anon29
+_pi_s32	cdf.h	/^		int32_t		_pi_s32;$/;"	m	union:__anon28::__anon29
+_pi_s64	cdf.h	/^		int64_t		_pi_s64;$/;"	m	union:__anon28::__anon29
+_pi_str	cdf.h	/^		} _pi_str;$/;"	m	union:__anon28::__anon29	typeref:struct:__anon28::__anon29::__anon30
+_pi_tp	cdf.h	/^		cdf_timestamp_t _pi_tp;$/;"	m	union:__anon28::__anon29
+_pi_u16	cdf.h	/^		uint16_t	_pi_u16;$/;"	m	union:__anon28::__anon29
+_pi_u32	cdf.h	/^		uint32_t	_pi_u32;$/;"	m	union:__anon28::__anon29
+_pi_u64	cdf.h	/^		uint64_t	_pi_u64;$/;"	m	union:__anon28::__anon29
+_s	file.h	/^		} _s;		\/* for use with string types *\/$/;"	m	union:magic::__anon4	typeref:struct:magic::__anon4::__anon5
+_u	file.h	/^	} _u;$/;"	m	struct:magic	typeref:union:magic::__anon4
+ambig	getopt_long.c	/^static const char ambig[] = "ambiguous option -- %.*s";$/;"	v	file:
+apple	file.h	/^	char apple[8];$/;"	m	struct:magic
+apprentice_1	apprentice.c	/^apprentice_1(struct magic_set *ms, const char *fn, int action,$/;"	f
+apprentice_compile	apprentice.c	/^apprentice_compile(struct magic_set *ms, struct magic **magicp,$/;"	f
+apprentice_list	apprentice.c	/^apprentice_list(struct mlist *mlist, int mode)$/;"	f
+apprentice_load	apprentice.c	/^apprentice_load(struct magic_set *ms, struct magic **magicp, uint32_t *nmagicp,$/;"	f
+apprentice_magic_strength	apprentice.c	/^apprentice_magic_strength(const struct magic *m)$/;"	f
+apprentice_map	apprentice.c	/^apprentice_map(struct magic_set *ms, struct magic **magicp, uint32_t *nmagicp,$/;"	f
+apprentice_sort	apprentice.c	/^apprentice_sort(const void *a, const void *b)$/;"	f
+ar	apprentice.c	/^private const uint32_t ar[] = {$/;"	v
+argv	compress.c	/^	const char *argv[3];$/;"	m	struct:__anon32	file:
+asprintf	asprintf.c	/^int asprintf(char **ptr, const char *fmt, ...)$/;"	f
+b	file.h	/^	uint8_t b;$/;"	m	union:VALUETYPE
+bad_link	fsmagic.c	/^bad_link(struct magic_set *ms, int err, char *buf)$/;"	f
+bang	apprentice.c	/^} bang[] = {$/;"	v	typeref:struct:__anon7
+bs1	apprentice.c	/^bs1(struct magic *m)$/;"	f
+buf	file.h	/^		char *buf;		\/* Accumulation buffer *\/$/;"	m	struct:magic_set::out
+buffer_base	vasprintf.c	/^  char *       buffer_base;       \/* output buffer *\/$/;"	m	struct:__anon3	file:
+buffer_len	vasprintf.c	/^  size_t       buffer_len;        \/* length of output buffer *\/$/;"	m	struct:__anon3	file:
+byteswap	apprentice.c	/^byteswap(struct magic *magic, uint32_t nmagic)$/;"	f
+c	file.h	/^	} c;$/;"	m	struct:magic_set	typeref:struct:magic_set::cont
+c_ptr	readelf.h	/^		Elf32_Addr	c_ptr;$/;"	m	union:__anon15::__anon16
+c_ptr	readelf.h	/^		Elf64_Addr	c_ptr;$/;"	m	union:__anon17::__anon18
+c_tag	readelf.h	/^	Elf32_Word	c_tag;$/;"	m	struct:__anon15
+c_tag	readelf.h	/^	Elf64_Xword	c_tag;$/;"	m	struct:__anon17
+c_un	readelf.h	/^	} c_un;$/;"	m	struct:__anon15	typeref:union:__anon15::__anon16
+c_un	readelf.h	/^	} c_un;$/;"	m	struct:__anon17	typeref:union:__anon17::__anon18
+c_val	readelf.h	/^		Elf32_Word	c_val;$/;"	m	union:__anon15::__anon16
+c_val	readelf.h	/^		Elf64_Xword	c_val;$/;"	m	union:__anon17::__anon18
+cap_desc	readelf.c	/^typedef struct cap_desc {$/;"	s	file:
+cap_desc_386	readelf.c	/^static const cap_desc_t cap_desc_386[] = {$/;"	v	file:
+cap_desc_sparc	readelf.c	/^static const cap_desc_t cap_desc_sparc[] = {$/;"	v	file:
+cap_desc_t	readelf.c	/^} cap_desc_t;$/;"	t	typeref:struct:cap_desc	file:
+cd_mask	readelf.c	/^	uint64_t cd_mask;$/;"	m	struct:cap_desc	file:
+cd_name	readelf.c	/^	const char *cd_name;$/;"	m	struct:cap_desc	file:
+cdf_bo	cdf.c	/^} cdf_bo;$/;"	v	typeref:union:__anon1	file:
+cdf_check_stream_offset	cdf.c	/^cdf_check_stream_offset(const cdf_stream_t *sst, const cdf_header_t *h,$/;"	f	file:
+cdf_classid_t	cdf.h	/^} cdf_classid_t;$/;"	t	typeref:struct:__anon24
+cdf_count_chain	cdf.c	/^cdf_count_chain(const cdf_sat_t *sat, cdf_secid_t sid, size_t size)$/;"	f
+cdf_ctime	cdf_time.c	/^cdf_ctime(const time_t *sec)$/;"	f
+cdf_dir_t	cdf.h	/^} cdf_dir_t;$/;"	t	typeref:struct:__anon22
+cdf_directory_t	cdf.h	/^} cdf_directory_t;$/;"	t	typeref:struct:__anon20
+cdf_dirid_t	cdf.h	/^typedef int32_t cdf_dirid_t;$/;"	t
+cdf_dump	cdf.c	/^cdf_dump(void *v, size_t len)$/;"	f
+cdf_dump_dir	cdf.c	/^cdf_dump_dir(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_dump_header	cdf.c	/^cdf_dump_header(const cdf_header_t *h)$/;"	f
+cdf_dump_property_info	cdf.c	/^cdf_dump_property_info(const cdf_property_info_t *info, size_t count)$/;"	f
+cdf_dump_sat	cdf.c	/^cdf_dump_sat(const char *prefix, const cdf_sat_t *sat, size_t size)$/;"	f
+cdf_dump_stream	cdf.c	/^cdf_dump_stream(const cdf_header_t *h, const cdf_stream_t *sst)$/;"	f
+cdf_dump_summary_info	cdf.c	/^cdf_dump_summary_info(const cdf_header_t *h, const cdf_stream_t *sst)$/;"	f
+cdf_file_property_info	readcdf.c	/^cdf_file_property_info(struct magic_set *ms, const cdf_property_info_t *info,$/;"	f
+cdf_file_summary_info	readcdf.c	/^cdf_file_summary_info(struct magic_set *ms, const cdf_header_t *h,$/;"	f
+cdf_getday	cdf_time.c	/^cdf_getday(int year, int days)$/;"	f	file:
+cdf_getdays	cdf_time.c	/^cdf_getdays(int year)$/;"	f	file:
+cdf_getmonth	cdf_time.c	/^cdf_getmonth(int year, int days)$/;"	f	file:
+cdf_getuint32	cdf.c	/^cdf_getuint32(const uint8_t *p, size_t offs)$/;"	f	file:
+cdf_header_t	cdf.h	/^} cdf_header_t;$/;"	t	typeref:struct:__anon19
+cdf_info_t	cdf.h	/^} cdf_info_t;$/;"	t	typeref:struct:__anon31
+cdf_namecmp	cdf.c	/^cdf_namecmp(const char *d, const uint16_t *s, size_t l)$/;"	f	file:
+cdf_print_classid	cdf.c	/^cdf_print_classid(char *buf, size_t buflen, const cdf_classid_t *id)$/;"	f
+cdf_print_elapsed_time	cdf.c	/^cdf_print_elapsed_time(char *buf, size_t bufsiz, cdf_timestamp_t ts)$/;"	f
+cdf_print_property_name	cdf.c	/^cdf_print_property_name(char *buf, size_t bufsiz, uint32_t p)$/;"	f
+cdf_property_info_t	cdf.h	/^} cdf_property_info_t;$/;"	t	typeref:struct:__anon28
+cdf_read	cdf.c	/^cdf_read(const cdf_info_t *info, off_t off, void *buf, size_t len)$/;"	f	file:
+cdf_read_dir	cdf.c	/^cdf_read_dir(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_read_header	cdf.c	/^cdf_read_header(const cdf_info_t *info, cdf_header_t *h)$/;"	f
+cdf_read_long_sector_chain	cdf.c	/^cdf_read_long_sector_chain(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_read_property_info	cdf.c	/^cdf_read_property_info(const cdf_stream_t *sst, const cdf_header_t *h,$/;"	f
+cdf_read_sat	cdf.c	/^cdf_read_sat(const cdf_info_t *info, cdf_header_t *h, cdf_sat_t *sat)$/;"	f
+cdf_read_sector	cdf.c	/^cdf_read_sector(const cdf_info_t *info, void *buf, size_t offs, size_t len,$/;"	f
+cdf_read_sector_chain	cdf.c	/^cdf_read_sector_chain(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_read_short_sector	cdf.c	/^cdf_read_short_sector(const cdf_stream_t *sst, void *buf, size_t offs,$/;"	f
+cdf_read_short_sector_chain	cdf.c	/^cdf_read_short_sector_chain(const cdf_header_t *h,$/;"	f
+cdf_read_short_stream	cdf.c	/^cdf_read_short_stream(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_read_ssat	cdf.c	/^cdf_read_ssat(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_read_summary_info	cdf.c	/^cdf_read_summary_info(const cdf_info_t *info, const cdf_header_t *h,$/;"	f
+cdf_sat_t	cdf.h	/^} cdf_sat_t;$/;"	t	typeref:struct:__anon21
+cdf_secid_t	cdf.h	/^typedef int32_t cdf_secid_t;$/;"	t
+cdf_section_declaration_t	cdf.h	/^} cdf_section_declaration_t;$/;"	t	typeref:struct:__anon26
+cdf_section_header_t	cdf.h	/^} cdf_section_header_t;$/;"	t	typeref:struct:__anon27
+cdf_stream_t	cdf.h	/^} cdf_stream_t;$/;"	t	typeref:struct:__anon23
+cdf_summary_info_header_t	cdf.h	/^} cdf_summary_info_header_t;$/;"	t	typeref:struct:__anon25
+cdf_swap_class	cdf.c	/^cdf_swap_class(cdf_classid_t *d)$/;"	f
+cdf_swap_dir	cdf.c	/^cdf_swap_dir(cdf_directory_t *d)$/;"	f
+cdf_swap_header	cdf.c	/^cdf_swap_header(cdf_header_t *h)$/;"	f
+cdf_timespec_to_timestamp	cdf_time.c	/^cdf_timespec_to_timestamp(cdf_timestamp_t *t, const struct timespec *ts)$/;"	f
+cdf_timestamp_t	cdf.h	/^typedef int64_t cdf_timestamp_t;$/;"	t
+cdf_timestamp_to_timespec	cdf_time.c	/^cdf_timestamp_to_timespec(struct timespec *ts, cdf_timestamp_t t)$/;"	f
+cdf_tole2	cdf.c	/^cdf_tole2(uint16_t sv)$/;"	f
+cdf_tole4	cdf.c	/^cdf_tole4(uint32_t sv)$/;"	f
+cdf_tole8	cdf.c	/^cdf_tole8(uint64_t sv)$/;"	f
+cdf_unpack_dir	cdf.c	/^cdf_unpack_dir(cdf_directory_t *d, char *buf)$/;"	f
+cdf_unpack_header	cdf.c	/^cdf_unpack_header(cdf_header_t *h, char *buf)$/;"	f
+cdf_unpack_summary_info	cdf.c	/^cdf_unpack_summary_info(const cdf_stream_t *sst, const cdf_header_t *h,$/;"	f
+charptr	tar.h	/^	unsigned char	charptr[RECORDSIZE];$/;"	m	union:record
+check_cond	apprentice.c	/^check_cond(struct magic_set *ms, int cond, uint32_t cont_level)$/;"	f
+check_fmt	softmagic.c	/^check_fmt(struct magic_set *ms, struct magic *m)$/;"	f
+check_format	apprentice.c	/^check_format(struct magic_set *ms, struct magic *m)$/;"	f
+check_format_type	apprentice.c	/^check_format_type(const char *ptr, int type)$/;"	f
+chksum	tar.h	/^		char	chksum[8];$/;"	m	struct:record::header
+cl_dword	cdf.h	/^	uint32_t	cl_dword;$/;"	m	struct:__anon24
+cl_six	cdf.h	/^	uint8_t		cl_six[6];$/;"	m	struct:__anon24
+cl_two	cdf.h	/^	uint8_t		cl_two[2];$/;"	m	struct:__anon24
+cl_word	cdf.h	/^	uint16_t	cl_word[2];$/;"	m	struct:__anon24
+close_and_restore	magic.c	/^close_and_restore(const struct magic_set *ms, const char *name, int fd,$/;"	f
+cmpstrp	apprentice.c	/^cmpstrp(const void *p1, const void *p2)$/;"	f
+compr	compress.c	/^} compr[] = {$/;"	v	typeref:struct:__anon32
+cond	file.h	/^	uint8_t cond;		\/* conditional type *\/$/;"	m	struct:magic
+cont	file.h	/^	struct cont {$/;"	s	struct:magic_set
+cont_count	apprentice.c	/^	uint32_t cont_count;$/;"	m	struct:magic_entry	file:
+cont_level	file.h	/^	uint16_t cont_level;	\/* level of ">" *\/$/;"	m	struct:magic
+core	vasprintf.c	/^static int core(xprintf_struct *s)$/;"	f	file:
+cvt_16	softmagic.c	/^cvt_16(union VALUETYPE *p, const struct magic *m)$/;"	f
+cvt_32	softmagic.c	/^cvt_32(union VALUETYPE *p, const struct magic *m)$/;"	f
+cvt_64	softmagic.c	/^cvt_64(union VALUETYPE *p, const struct magic *m)$/;"	f
+cvt_8	softmagic.c	/^cvt_8(union VALUETYPE *p, const struct magic *m)$/;"	f
+cvt_double	softmagic.c	/^cvt_double(union VALUETYPE *p, const struct magic *m)$/;"	f
+cvt_float	softmagic.c	/^cvt_float(union VALUETYPE *p, const struct magic *m)$/;"	f
+d	file.h	/^	double d;$/;"	m	union:VALUETYPE
+d_color	cdf.h	/^	uint8_t		d_color;$/;"	m	struct:__anon20
+d_created	cdf.h	/^	cdf_timestamp_t d_created;$/;"	m	struct:__anon20
+d_flags	cdf.h	/^	uint32_t	d_flags;$/;"	m	struct:__anon20
+d_left_child	cdf.h	/^	cdf_dirid_t	d_left_child;$/;"	m	struct:__anon20
+d_modified	cdf.h	/^	cdf_timestamp_t d_modified;$/;"	m	struct:__anon20
+d_name	cdf.h	/^	uint16_t	d_name[32];$/;"	m	struct:__anon20
+d_namelen	cdf.h	/^	uint16_t	d_namelen;$/;"	m	struct:__anon20
+d_right_child	cdf.h	/^	cdf_dirid_t	d_right_child;$/;"	m	struct:__anon20
+d_size	cdf.h	/^	uint32_t	d_size;$/;"	m	struct:__anon20
+d_storage	cdf.h	/^	cdf_dirid_t	d_storage;$/;"	m	struct:__anon20
+d_storage_uuid	cdf.h	/^	uint64_t	d_storage_uuid[2];$/;"	m	struct:__anon20
+d_stream_first_sector	cdf.h	/^	cdf_secid_t	d_stream_first_sector;$/;"	m	struct:__anon20
+d_type	cdf.h	/^	uint8_t		d_type;$/;"	m	struct:__anon20
+d_unused0	cdf.h	/^	uint32_t	d_unused0;$/;"	m	struct:__anon20
+desc	file.h	/^	char desc[MAXDESC];	\/* description *\/$/;"	m	struct:magic
+dest_string	vasprintf.c	/^  char *       dest_string;       \/* current position into output string *\/$/;"	m	struct:__anon3	file:
+devmajor	tar.h	/^		char	devmajor[8];$/;"	m	struct:record::header
+devminor	tar.h	/^		char	devminor[8];$/;"	m	struct:record::header
+dir_len	cdf.h	/^	size_t dir_len;$/;"	m	struct:__anon22
+dir_tab	cdf.h	/^	cdf_directory_t *dir_tab;$/;"	m	struct:__anon22
+dispatch	vasprintf.c	/^static int dispatch(xprintf_struct *s)$/;"	f	file:
+donote	readelf.c	/^donote(struct magic_set *ms, void *vbuf, size_t offset, size_t size,$/;"	f
+dophn_core	readelf.c	/^dophn_core(struct magic_set *ms, int clazz, int swap, int fd, off_t off,$/;"	f
+dophn_exec	readelf.c	/^dophn_exec(struct magic_set *ms, int clazz, int swap, int fd, off_t off,$/;"	f
+doshn	readelf.c	/^doshn(struct magic_set *ms, int clazz, int swap, int fd, off_t off, int num,$/;"	f
+dummy	file.h	/^	uint8_t dummy;$/;"	m	struct:magic
+e_ehsize	readelf.h	/^    Elf32_Half	e_ehsize;$/;"	m	struct:__anon8
+e_ehsize	readelf.h	/^    Elf64_Half	e_ehsize;$/;"	m	struct:__anon9
+e_entry	readelf.h	/^    Elf32_Addr	e_entry;  \/* Entry point *\/$/;"	m	struct:__anon8
+e_entry	readelf.h	/^    Elf64_Addr	e_entry;  \/* Entry point *\/$/;"	m	struct:__anon9
+e_flags	readelf.h	/^    Elf32_Word	e_flags;$/;"	m	struct:__anon8
+e_flags	readelf.h	/^    Elf64_Word	e_flags;$/;"	m	struct:__anon9
+e_ident	readelf.h	/^    Elf32_Char	e_ident[EI_NIDENT];$/;"	m	struct:__anon8
+e_ident	readelf.h	/^    Elf64_Char	e_ident[EI_NIDENT];$/;"	m	struct:__anon9
+e_machine	readelf.h	/^    Elf32_Half	e_machine;$/;"	m	struct:__anon8
+e_machine	readelf.h	/^    Elf64_Half	e_machine;$/;"	m	struct:__anon9
+e_phentsize	readelf.h	/^    Elf32_Half	e_phentsize;$/;"	m	struct:__anon8
+e_phentsize	readelf.h	/^    Elf64_Half	e_phentsize;$/;"	m	struct:__anon9
+e_phnum	readelf.h	/^    Elf32_Half	e_phnum;$/;"	m	struct:__anon8
+e_phnum	readelf.h	/^    Elf64_Half	e_phnum;$/;"	m	struct:__anon9
+e_phoff	readelf.h	/^    Elf32_Off	e_phoff;$/;"	m	struct:__anon8
+e_phoff	readelf.h	/^    Elf64_Off	e_phoff;$/;"	m	struct:__anon9
+e_shentsize	readelf.h	/^    Elf32_Half	e_shentsize;$/;"	m	struct:__anon8
+e_shentsize	readelf.h	/^    Elf64_Half	e_shentsize;$/;"	m	struct:__anon9
+e_shnum	readelf.h	/^    Elf32_Half	e_shnum;$/;"	m	struct:__anon8
+e_shnum	readelf.h	/^    Elf64_Half	e_shnum;$/;"	m	struct:__anon9
+e_shoff	readelf.h	/^    Elf32_Off	e_shoff;$/;"	m	struct:__anon8
+e_shoff	readelf.h	/^    Elf64_Off	e_shoff;$/;"	m	struct:__anon9
+e_shstrndx	readelf.h	/^    Elf32_Half	e_shstrndx;$/;"	m	struct:__anon8
+e_shstrndx	readelf.h	/^    Elf64_Half	e_shstrndx;$/;"	m	struct:__anon9
+e_type	readelf.h	/^    Elf32_Half	e_type;$/;"	m	struct:__anon8
+e_type	readelf.h	/^    Elf64_Half	e_type;$/;"	m	struct:__anon9
+e_version	readelf.h	/^    Elf32_Word	e_version;$/;"	m	struct:__anon8
+e_version	readelf.h	/^    Elf64_Word	e_version;$/;"	m	struct:__anon9
+eatsize	apprentice.c	/^eatsize(const char **p)$/;"	f
+ebcdic_1047_to_8859	encoding.c	/^private unsigned char ebcdic_1047_to_8859[] = {$/;"	v
+ebcdic_to_ascii	encoding.c	/^private unsigned char ebcdic_to_ascii[] = {$/;"	v
+elf_getu	readelf.c	1177;"	d	file:
+elf_getu	readelf.c	1178;"	d	file:
+elf_getu	readelf.c	1183;"	d	file:
+elf_getu	readelf.c	1184;"	d	file:
+elf_getu16	readelf.c	128;"	d	file:
+elf_getu32	readelf.c	129;"	d	file:
+elf_getu64	readelf.c	131;"	d	file:
+elf_getu64	readelf.c	135;"	d	file:
+elf_note	readelf.h	/^typedef struct elf_note {$/;"	s
+elfhdr	readelf.c	1179;"	d	file:
+elfhdr	readelf.c	1180;"	d	file:
+elfhdr	readelf.c	1185;"	d	file:
+elfhdr	readelf.c	1186;"	d	file:
+encode_utf8	ascmagic.c	/^encode_utf8(unsigned char *buf, size_t len, unichar *ubuf, size_t ulen)$/;"	f
+error	file.h	/^	int error;$/;"	m	struct:magic_set
+event_flags	file.h	/^	int event_flags;		\/* Note things that happened. *\/$/;"	m	struct:magic_set
+ext	apprentice.c	/^private const char ext[] = ".mgc";$/;"	v
+f	file.h	/^	float f;$/;"	m	union:VALUETYPE
+factor	file.h	/^	uint8_t factor;$/;"	m	struct:magic
+factor_op	file.h	/^	uint8_t factor_op;$/;"	m	struct:magic
+file	file.h	/^	const char *file;$/;"	m	struct:magic_set
+file_apprentice	apprentice.c	/^file_apprentice(struct magic_set *ms, const char *fn, int action)$/;"	f
+file_ascmagic	ascmagic.c	/^file_ascmagic(struct magic_set *ms, const unsigned char *buf, size_t nbytes,$/;"	f
+file_ascmagic_with_encoding	ascmagic.c	/^file_ascmagic_with_encoding(struct magic_set *ms, const unsigned char *buf,$/;"	f
+file_badread	funcs.c	/^file_badread(struct magic_set *ms)$/;"	f
+file_badseek	funcs.c	/^file_badseek(struct magic_set *ms)$/;"	f
+file_buffer	funcs.c	/^file_buffer(struct magic_set *ms, int fd, const char *inname __attribute__ ((unused)),$/;"	f
+file_check_mem	funcs.c	/^file_check_mem(struct magic_set *ms, unsigned int level)$/;"	f
+file_delmagic	apprentice.c	/^file_delmagic(struct magic *p, int type, size_t entries)$/;"	f
+file_encoding	encoding.c	/^file_encoding(struct magic_set *ms, const unsigned char *buf, size_t nbytes, unichar **ubuf, size_t *ulen, const char **code, const char **code_mime, const char **type)$/;"	f
+file_error	funcs.c	/^file_error(struct magic_set *ms, int error, const char *f, ...)$/;"	f
+file_error_core	funcs.c	/^file_error_core(struct magic_set *ms, int error, const char *f, va_list va,$/;"	f
+file_fmttime	print.c	/^file_fmttime(uint32_t v, int local)$/;"	f
+file_formats	apprentice.c	/^int file_formats[FILE_NAMES_SIZE];$/;"	v
+file_fsmagic	fsmagic.c	/^file_fsmagic(struct magic_set *ms, const char *fn, struct stat *sb)$/;"	f
+file_getbuffer	funcs.c	/^file_getbuffer(struct magic_set *ms)$/;"	f
+file_is_tar	is_tar.c	/^file_is_tar(struct magic_set *ms, const unsigned char *buf, size_t nbytes)$/;"	f
+file_looks_utf8	encoding.c	/^file_looks_utf8(const unsigned char *buf, size_t nbytes, unichar *ubuf, size_t *ulen)$/;"	f
+file_magerror	funcs.c	/^file_magerror(struct magic_set *ms, const char *f, ...)$/;"	f
+file_magwarn	print.c	/^file_magwarn(struct magic_set *ms, const char *f, ...)$/;"	f
+file_mdump	print.c	/^file_mdump(struct magic *m)$/;"	f
+file_names	apprentice.c	/^const char *file_names[FILE_NAMES_SIZE];$/;"	v
+file_nformats	apprentice.c	/^const size_t file_nformats = FILE_NAMES_SIZE;$/;"	v
+file_nnames	apprentice.c	/^const size_t file_nnames = FILE_NAMES_SIZE;$/;"	v
+file_oomem	funcs.c	/^file_oomem(struct magic_set *ms, size_t len)$/;"	f
+file_or_fd	magic.c	/^file_or_fd(struct magic_set *ms, const char *inname, int fd)$/;"	f
+file_os2_apptype	apptype.c	/^file_os2_apptype(struct magic_set *ms, const char *fn, const void *buf,$/;"	f
+file_pipe2file	compress.c	/^file_pipe2file(struct magic_set *ms, int fd, const void *startbuf,$/;"	f
+file_printedlen	funcs.c	/^file_printedlen(const struct magic_set *ms)$/;"	f
+file_printf	funcs.c	/^file_printf(struct magic_set *ms, const char *fmt, ...)$/;"	f
+file_pstring_get_length	apprentice.c	/^file_pstring_get_length(const struct magic *m, const char *s)$/;"	f
+file_pstring_length_size	apprentice.c	/^file_pstring_length_size(const struct magic *m)$/;"	f
+file_replace	funcs.c	/^file_replace(struct magic_set *ms, const char *pat, const char *rep)$/;"	f
+file_reset	funcs.c	/^file_reset(struct magic_set *ms)$/;"	f
+file_showstr	apprentice.c	/^file_showstr(FILE *fp, const char *s, size_t len)$/;"	f
+file_signextend	apprentice.c	/^file_signextend(struct magic_set *ms, struct magic *m, uint64_t v)$/;"	f
+file_softmagic	softmagic.c	/^file_softmagic(struct magic_set *ms, const unsigned char *buf, size_t nbytes,$/;"	f
+file_strncmp	softmagic.c	/^file_strncmp(const char *s1, const char *s2, size_t len, uint32_t flags)$/;"	f
+file_strncmp16	softmagic.c	/^file_strncmp16(const char *a, const char *b, size_t len, uint32_t flags)$/;"	f
+file_trycdf	readcdf.c	/^file_trycdf(struct magic_set *ms, int fd, const unsigned char *buf,$/;"	f
+file_tryelf	readelf.c	/^file_tryelf(struct magic_set *ms, int fd, const unsigned char *buf,$/;"	f
+file_vprintf	funcs.c	/^file_vprintf(struct magic_set *ms, const char *fmt, va_list ap)$/;"	f
+file_zmagic	compress.c	/^file_zmagic(struct magic_set *ms, int fd, const char *name,$/;"	f
+flag	file.h	/^	uint8_t flag;$/;"	m	struct:magic
+flag	mygetopt.h	/^	int *flag;$/;"	m	struct:option
+flags	file.h	/^	int flags;			\/* Control magic tests. *\/$/;"	m	struct:magic_set
+format	apprentice.c	/^	const int format;$/;"	m	struct:type_tbl_s	file:
+fprintf_file	vasprintf.c	/^  FILE *       fprintf_file;$/;"	m	struct:__anon3	file:
+free_mlist	magic.c	/^free_mlist(struct mlist *mlist)$/;"	f
+from_ebcdic	encoding.c	/^from_ebcdic(const unsigned char *buf, size_t nbytes, unsigned char *out)$/;"	f
+from_oct	is_tar.c	/^from_oct(int digs, const char *where)$/;"	f
+fun	apprentice.c	/^	int (*fun)(struct magic_set *, struct magic_entry *, const char *);$/;"	m	struct:__anon7	file:
+gcd	getopt_long.c	/^gcd(a, b)$/;"	f	file:
+get_cond	apprentice.c	/^get_cond(const char *l, const char **t)$/;"	f
+get_default_magic	magic.c	/^get_default_magic(void)$/;"	f
+get_op	apprentice.c	/^get_op(char c)$/;"	f
+get_type	apprentice.c	/^get_type(const char *l, const char **t)$/;"	f
+getdelim	getline.c	/^getdelim(char **buf, size_t *bufsiz, int delimiter, FILE *fp)$/;"	f
+getint	vasprintf.c	/^static int getint(const char **string)$/;"	f	file:
+getline	getline.c	/^getline(char **buf, size_t *bufsiz, FILE *fp)$/;"	f
+getopt	getopt_long.c	/^getopt(nargc, nargv, options)$/;"	f
+getopt_internal	getopt_long.c	/^getopt_internal(nargc, nargv, options)$/;"	f	file:
+getopt_long	getopt_long.c	/^getopt_long(nargc, nargv, options, long_options, idx)$/;"	f
+getstr	apprentice.c	/^getstr(struct magic_set *ms, struct magic *m, const char *s, int warn)$/;"	f
+getu16	readelf.c	/^getu16(int swap, uint16_t value)$/;"	f
+getu32	readelf.c	/^getu32(int swap, uint32_t value)$/;"	f
+getu64	readelf.c	/^getu64(int swap, uint64_t value)$/;"	f
+getvalue	apprentice.c	/^getvalue(struct magic_set *ms, struct magic *m, const char **p, int action)$/;"	f
+gid	tar.h	/^		char	gid[8];$/;"	m	struct:record::header
+gname	tar.h	/^		char	gname[TGNMLEN];$/;"	m	struct:record::header
+got_match	file.h	/^	int got_match;$/;"	m	struct:level_info
+h	file.h	/^	uint16_t h;$/;"	m	union:VALUETYPE
+h_byte_order	cdf.h	/^	uint16_t	h_byte_order;$/;"	m	struct:__anon19
+h_magic	cdf.h	/^	uint64_t	h_magic;$/;"	m	struct:__anon19
+h_master_sat	cdf.h	/^	cdf_secid_t	h_master_sat[436\/4];$/;"	m	struct:__anon19
+h_min_size_standard_stream	cdf.h	/^	uint32_t	h_min_size_standard_stream;$/;"	m	struct:__anon19
+h_num_sectors_in_master_sat	cdf.h	/^	uint32_t	h_num_sectors_in_master_sat;$/;"	m	struct:__anon19
+h_num_sectors_in_sat	cdf.h	/^	uint32_t	h_num_sectors_in_sat;$/;"	m	struct:__anon19
+h_num_sectors_in_short_sat	cdf.h	/^	uint32_t	h_num_sectors_in_short_sat;$/;"	m	struct:__anon19
+h_revision	cdf.h	/^	uint16_t	h_revision;$/;"	m	struct:__anon19
+h_sec_size_p2	cdf.h	/^	uint16_t	h_sec_size_p2;$/;"	m	struct:__anon19
+h_secid_first_directory	cdf.h	/^	uint32_t	h_secid_first_directory;$/;"	m	struct:__anon19
+h_secid_first_sector_in_master_sat	cdf.h	/^	cdf_secid_t	h_secid_first_sector_in_master_sat;$/;"	m	struct:__anon19
+h_secid_first_sector_in_short_sat	cdf.h	/^	cdf_secid_t	h_secid_first_sector_in_short_sat;$/;"	m	struct:__anon19
+h_short_sec_size_p2	cdf.h	/^	uint16_t	h_short_sec_size_p2;$/;"	m	struct:__anon19
+h_unused0	cdf.h	/^	uint8_t		h_unused0[10];$/;"	m	struct:__anon19
+h_unused1	cdf.h	/^	uint8_t		h_unused1[4];$/;"	m	struct:__anon19
+h_uuid	cdf.h	/^	uint64_t	h_uuid[2];$/;"	m	struct:__anon19
+h_version	cdf.h	/^	uint16_t	h_version;$/;"	m	struct:__anon19
+handle_annotation	softmagic.c	/^handle_annotation(struct magic_set *ms, struct magic *m)$/;"	f
+handle_mime	fsmagic.c	/^handle_mime(struct magic_set *ms, int mime, const char *str)$/;"	f
+has_arg	mygetopt.h	/^	int has_arg;$/;"	m	struct:option
+header	tar.h	/^	struct header {$/;"	s	union:record
+header	tar.h	/^	} header;$/;"	m	union:record	typeref:struct:record::header
+hextoint	apprentice.c	/^hextoint(int c)$/;"	f
+hl	file.h	/^	uint8_t hl[4];	\/* 4 bytes of a fixed-endian "long" *\/$/;"	m	union:VALUETYPE
+hq	file.h	/^	uint8_t hq[8];	\/* 8 bytes of a fixed-endian "quad" *\/$/;"	m	union:VALUETYPE
+hs	file.h	/^	uint8_t hs[2];	\/* 2 bytes of a fixed-endian "short" *\/$/;"	m	union:VALUETYPE
+i_buf	cdf.h	/^	const unsigned char *i_buf;$/;"	m	struct:__anon31
+i_fd	cdf.h	/^	int i_fd;$/;"	m	struct:__anon31
+i_len	cdf.h	/^	size_t i_len;$/;"	m	struct:__anon31
+illoptchar	getopt_long.c	/^static const char illoptchar[] = "unknown option -- %c";$/;"	v	file:
+illoptstring	getopt_long.c	/^static const char illoptstring[] = "unknown option -- %s";$/;"	v	file:
+in_offset	file.h	/^	int32_t in_offset;	\/* offset from indirection *\/$/;"	m	struct:magic
+in_op	file.h	/^	uint8_t in_op;		\/* operator for indirection *\/$/;"	m	struct:magic
+in_type	file.h	/^	uint8_t in_type;	\/* type of indirection *\/$/;"	m	struct:magic
+init_file_tables	apprentice.c	/^init_file_tables(void)$/;"	f
+init_result	file.c	/^static int init_result = 1;$/;"	v	file:
+int32_t	config.h	/^typedef int int32_t;$/;"	t
+int64_t	config.h	/^typedef long int64_t;$/;"	t
+int64_t	config.h	/^typedef long long int64_t;$/;"	t
+is_tar	is_tar.c	/^is_tar(const unsigned char *buf, size_t nbytes)$/;"	f
+isleap	cdf_time.c	41;"	d	file:
+isodigit	is_tar.c	51;"	d	file:
+isquote	readelf.c	57;"	d	file:
+l	file.h	/^	uint32_t l;$/;"	m	union:VALUETYPE
+last_cond	file.h	/^	int last_cond;	\/* used for error checking by parse() *\/$/;"	m	struct:level_info
+last_match	file.h	/^	int last_match;$/;"	m	struct:level_info
+len	apprentice.c	/^	const size_t len;$/;"	m	struct:type_tbl_s	file:
+len	apprentice.c	/^	size_t len;$/;"	m	struct:__anon7	file:
+len	file.h	/^		size_t len;$/;"	m	struct:magic_set::cont
+level_info	file.h	/^struct level_info {$/;"	s
+li	file.h	/^		struct level_info *li;$/;"	m	struct:magic_set::cont	typeref:struct:magic_set::cont::level_info
+line	file.h	/^	size_t line;			\/* current magic line number *\/$/;"	m	struct:magic_set
+lineno	file.h	/^	uint32_t lineno;	\/* line number in magic file *\/$/;"	m	struct:magic
+linkflag	tar.h	/^		char	linkflag;$/;"	m	struct:record::header
+linkname	tar.h	/^		char	linkname[NAMSIZ];$/;"	m	struct:record::header
+load_1	apprentice.c	/^load_1(struct magic_set *ms, int action, const char *fn, int *errs,$/;"	f
+looks_ascii	encoding.c	/^looks_ascii(const unsigned char *buf, size_t nbytes, unichar *ubuf,$/;"	f
+looks_extended	encoding.c	/^looks_extended(const unsigned char *buf, size_t nbytes, unichar *ubuf,$/;"	f
+looks_latin1	encoding.c	/^looks_latin1(const unsigned char *buf, size_t nbytes, unichar *ubuf, size_t *ulen)$/;"	f
+looks_ucs16	encoding.c	/^looks_ucs16(const unsigned char *buf, size_t nbytes, unichar *ubuf,$/;"	f
+looks_utf8_with_BOM	encoding.c	/^looks_utf8_with_BOM(const unsigned char *buf, size_t nbytes, unichar *ubuf,$/;"	f
+magic	compress.c	/^	const char magic[8];$/;"	m	struct:__anon32	file:
+magic	file.h	/^	struct magic *magic;		\/* array of magic entries *\/$/;"	m	struct:mlist	typeref:struct:mlist::magic
+magic	file.h	/^struct magic {$/;"	s
+magic	tar.h	/^		char	magic[8];$/;"	m	struct:record::header
+magic_buffer	magic.c	/^magic_buffer(struct magic_set *ms, const void *buf, size_t nb)$/;"	f
+magic_check	magic.c	/^magic_check(struct magic_set *ms, const char *magicfile)$/;"	f
+magic_close	magic.c	/^magic_close(struct magic_set *ms)$/;"	f
+magic_compile	magic.c	/^magic_compile(struct magic_set *ms, const char *magicfile)$/;"	f
+magic_descriptor	magic.c	/^magic_descriptor(struct magic_set *ms, int fd)$/;"	f
+magic_entry	apprentice.c	/^struct magic_entry {$/;"	s	file:
+magic_errno	magic.c	/^magic_errno(struct magic_set *ms)$/;"	f
+magic_error	magic.c	/^magic_error(struct magic_set *ms)$/;"	f
+magic_file	magic.c	/^magic_file(struct magic_set *ms, const char *inname)$/;"	f
+magic_getpath	magic.c	/^magic_getpath(const char *magicfile, int action)$/;"	f
+magic_list	magic.c	/^magic_list(struct magic_set *ms, const char *magicfile)$/;"	f
+magic_load	magic.c	/^magic_load(struct magic_set *ms, const char *magicfile)$/;"	f
+magic_open	magic.c	/^magic_open(int flags)$/;"	f
+magic_set	file.h	/^struct magic_set {$/;"	s
+magic_setflags	magic.c	/^magic_setflags(struct magic_set *ms, int flags)$/;"	f
+magic_t	magic.h	/^typedef struct magic_set *magic_t;$/;"	t	typeref:struct:magic_set
+magiccheck	softmagic.c	/^magiccheck(struct magic_set *ms, struct magic *m)$/;"	f
+magicfile	file.c	/^static const char *magicfile = NULL;$/;"	v	file:
+magicsize	apprentice.c	/^private size_t magicsize = sizeof(struct magic);$/;"	v
+maglen	compress.c	/^	size_t maglen;$/;"	m	struct:__anon32	file:
+main	apprentice.c	/^main(int argc, char *argv[])$/;"	f
+main	cdf.c	/^main(int argc, char *argv[])$/;"	f
+main	cdf_time.c	/^main(int argc, char *argv[])$/;"	f
+main	getline.c	/^main(int argc, char *argv[])$/;"	f
+major	fsmagic.c	58;"	d	file:
+mapped	file.h	/^	int mapped;  \/* allocation type: 0 => apprentice_file$/;"	m	struct:mlist
+mask_op	file.h	/^	uint8_t mask_op;	\/* operator for mask *\/$/;"	m	struct:magic
+match	softmagic.c	/^match(struct magic_set *ms, struct magic *magic, uint32_t nmagic,$/;"	f
+max_count	apprentice.c	/^	uint32_t max_count;$/;"	m	struct:magic_entry	file:
+maxlen	vasprintf.c	/^  size_t       maxlen;$/;"	m	struct:__anon3	file:
+maxmagic	apprentice.c	/^private size_t maxmagic = 0;$/;"	v
+mconvert	softmagic.c	/^mconvert(struct magic_set *ms, struct magic *m)$/;"	f
+mcopy	softmagic.c	/^mcopy(struct magic_set *ms, union VALUETYPE *p, int type, int indir,$/;"	f
+mdays	cdf_time.c	/^static const int mdays[] = {$/;"	v	file:
+mdebug	softmagic.c	/^mdebug(uint32_t offset, const char *str, size_t len)$/;"	f
+memcpy	elfclass.h	/^	(void)memcpy(&elfhdr, buf, sizeof elfhdr);$/;"	v
+mget	softmagic.c	/^mget(struct magic_set *ms, const unsigned char *s,$/;"	f
+mimetype	file.h	/^	char mimetype[MAXDESC]; \/* MIME type *\/$/;"	m	struct:magic
+minor	fsmagic.c	59;"	d	file:
+mkdbname	apprentice.c	/^mkdbname(struct magic_set *ms, const char *fn, int strip)$/;"	f
+mlist	file.h	/^	struct mlist *mlist;$/;"	m	struct:magic_set	typeref:struct:magic_set::mlist
+mlist	file.h	/^struct mlist {$/;"	s
+mode	tar.h	/^		char	mode[8];$/;"	m	struct:record::header
+moffset	softmagic.c	/^moffset(struct magic_set *ms, struct magic *m)$/;"	f
+mp	apprentice.c	/^	struct magic *mp;	$/;"	m	struct:magic_entry	typeref:struct:magic_entry::magic	file:
+mprint	softmagic.c	/^mprint(struct magic_set *ms, struct magic *m)$/;"	f
+ms	file.c	/^static struct magic_set *ms = NULL;$/;"	v	typeref:struct:magic_set	file:
+ms_value	file.h	/^	union VALUETYPE ms_value;	\/* either number or string *\/$/;"	m	struct:magic_set	typeref:union:magic_set::VALUETYPE
+mtime	tar.h	/^		char	mtime[12];$/;"	m	struct:record::header
+n	cdf.c	/^	const char *n;$/;"	m	struct:__anon2	file:
+n_descsz	readelf.h	/^    Elf32_Word	n_descsz;	\/* Content size *\/$/;"	m	struct:elf_note
+n_descsz	readelf.h	/^    Elf64_Word	n_descsz;$/;"	m	struct:__anon14
+n_namesz	readelf.h	/^    Elf32_Word	n_namesz;	\/* Name size *\/$/;"	m	struct:elf_note
+n_namesz	readelf.h	/^    Elf64_Word	n_namesz;$/;"	m	struct:__anon14
+n_type	readelf.h	/^    Elf32_Word	n_type;		\/* Content type *\/$/;"	m	struct:elf_note
+n_type	readelf.h	/^    Elf64_Word	n_type;$/;"	m	struct:__anon14
+name	apprentice.c	/^	const char *name;$/;"	m	struct:__anon7	file:
+name	apprentice.c	/^	const char name[16];$/;"	m	struct:type_tbl_s	file:
+name	mygetopt.h	/^	const char *name;$/;"	m	struct:option
+name	tar.h	/^		char	name[NAMSIZ];$/;"	m	struct:record::header
+ncompr	compress.c	/^private size_t ncompr = sizeof(compr) \/ sizeof(compr[0]);$/;"	v
+next	file.h	/^	struct mlist *next, *prev;$/;"	m	struct:mlist	typeref:struct:mlist::mlist
+nmagic	file.h	/^	uint32_t nmagic;			\/* number of entries in array *\/$/;"	m	struct:mlist
+no_argument	mygetopt.h	47;"	d
+noarg	getopt_long.c	/^static const char noarg[] = "option doesn't take an argument -- %.*s";$/;"	v	file:
+nonopt_end	getopt_long.c	/^static int nonopt_end = -1;   \/* first option after non options (for permute) *\/$/;"	v	file:
+nonopt_start	getopt_long.c	/^static int nonopt_start = -1; \/* first non option argument (for permute) *\/$/;"	v	file:
+num_mask	file.h	278;"	d
+o	file.h	/^	} o;$/;"	m	struct:magic_set	typeref:struct:magic_set::out
+off	file.h	/^	int32_t off;$/;"	m	struct:level_info
+offset	file.h	/^		size_t offset;		\/* starting offset in source: XXX - should this be off_t? *\/$/;"	m	struct:magic_set::__anon6
+offset	file.h	/^	uint32_t offset;	\/* offset to magic number *\/$/;"	m	struct:magic
+offset	file.h	/^	uint32_t offset;$/;"	m	struct:magic_set
+optarg	getopt_long.c	/^char    *optarg;		\/* argument associated with option *\/$/;"	v
+optind	getopt_long.c	/^int	optind = 1;		\/* index into parent argv vector *\/$/;"	v
+option	mygetopt.h	/^struct option {$/;"	s
+optional_argument	mygetopt.h	49;"	d
+optopt	getopt_long.c	/^int	optopt = '?';		\/* character checked for validity *\/$/;"	v
+optreset	getopt_long.c	/^int	optreset;		\/* reset getopt *\/$/;"	v
+os_style_names	readelf.c	/^private const char os_style_names[][8] = {$/;"	v
+out	file.h	/^	struct out {$/;"	s	struct:magic_set
+p_align	readelf.h	/^    Elf32_Word	p_align;$/;"	m	struct:__anon10
+p_align	readelf.h	/^    Elf64_Xword	p_align;$/;"	m	struct:__anon11
+p_filesz	readelf.h	/^    Elf32_Word	p_filesz;$/;"	m	struct:__anon10
+p_filesz	readelf.h	/^    Elf64_Xword	p_filesz;$/;"	m	struct:__anon11
+p_flags	readelf.h	/^    Elf32_Word	p_flags;$/;"	m	struct:__anon10
+p_flags	readelf.h	/^    Elf64_Word	p_flags;$/;"	m	struct:__anon11
+p_memsz	readelf.h	/^    Elf32_Word	p_memsz;$/;"	m	struct:__anon10
+p_memsz	readelf.h	/^    Elf64_Xword	p_memsz;$/;"	m	struct:__anon11
+p_offset	readelf.h	/^    Elf32_Off	p_offset;$/;"	m	struct:__anon10
+p_offset	readelf.h	/^    Elf64_Off	p_offset;$/;"	m	struct:__anon11
+p_paddr	readelf.h	/^    Elf32_Addr	p_paddr;$/;"	m	struct:__anon10
+p_paddr	readelf.h	/^    Elf64_Addr	p_paddr;$/;"	m	struct:__anon11
+p_type	readelf.h	/^    Elf32_Word	p_type;$/;"	m	struct:__anon10
+p_type	readelf.h	/^    Elf64_Word	p_type;$/;"	m	struct:__anon11
+p_vaddr	readelf.h	/^    Elf32_Addr	p_vaddr;$/;"	m	struct:__anon10
+p_vaddr	readelf.h	/^    Elf64_Addr	p_vaddr;$/;"	m	struct:__anon11
+parse	apprentice.c	/^parse(struct magic_set *ms, struct magic_entry **mentryp, uint32_t *nmentryp, $/;"	f
+parse_apple	apprentice.c	/^parse_apple(struct magic_set *ms, struct magic_entry *me, const char *line)$/;"	f
+parse_mime	apprentice.c	/^parse_mime(struct magic_set *ms, struct magic_entry *me, const char *line)$/;"	f
+parse_strength	apprentice.c	/^parse_strength(struct magic_set *ms, struct magic_entry *me, const char *line)$/;"	f
+pbuf	file.h	/^		char *pbuf;		\/* Printable buffer *\/$/;"	m	struct:magic_set::out
+permute_args	getopt_long.c	/^permute_args(panonopt_start, panonopt_end, opt_end, nargv)$/;"	f	file:
+pi_d	cdf.h	187;"	d
+pi_f	cdf.h	186;"	d
+pi_id	cdf.h	/^	uint32_t	pi_id;$/;"	m	struct:__anon28
+pi_s16	cdf.h	185;"	d
+pi_s32	cdf.h	183;"	d
+pi_s64	cdf.h	181;"	d
+pi_str	cdf.h	189;"	d
+pi_tp	cdf.h	188;"	d
+pi_type	cdf.h	/^	uint32_t	pi_type;$/;"	m	struct:__anon28
+pi_u16	cdf.h	184;"	d
+pi_u32	cdf.h	182;"	d
+pi_u64	cdf.h	180;"	d
+pi_val	cdf.h	/^	} pi_val;$/;"	m	struct:__anon28	typeref:union:__anon28::__anon29
+place	getopt_long.c	/^static const char *place = EMSG; \/* option letter processing *\/$/;"	v	file:
+prev	file.h	/^	struct mlist *next, *prev;$/;"	m	struct:mlist	typeref:struct:mlist::
+print_it	vasprintf.c	/^static int print_it(xprintf_struct *s, size_t approx_len,$/;"	f	file:
+print_sep	softmagic.c	/^print_sep(struct magic_set *ms, int firstline)$/;"	f
+private	file.h	81;"	d
+protected	file.h	83;"	d
+prpsoffsets	readelf.c	191;"	d	file:
+prpsoffsets32	readelf.c	/^static const size_t	prpsoffsets32[] = {$/;"	v	file:
+prpsoffsets64	readelf.c	/^static const size_t	prpsoffsets64[] = {$/;"	v	file:
+pseudo_len	vasprintf.c	/^  size_t       pseudo_len;        \/* total length of output text if it were not limited in size *\/$/;"	m	struct:__anon3	file:
+public	file.h	85;"	d
+q	file.h	/^	uint64_t q;$/;"	m	union:VALUETYPE
+real_len	vasprintf.c	/^  size_t       real_len;          \/* real current length of output text *\/$/;"	m	struct:__anon3	file:
+realloc_buff	vasprintf.c	/^static int realloc_buff(xprintf_struct *s, size_t len)$/;"	f	file:
+recargchar	getopt_long.c	/^static const char recargchar[] = "option requires an argument -- %c";$/;"	v	file:
+recargstring	getopt_long.c	/^static const char recargstring[] = "option requires an argument -- %s";$/;"	v	file:
+record	tar.h	/^union record {$/;"	u
+reln	file.h	/^	uint8_t reln;		\/* relation (0=eq, '>'=gt, etc) *\/$/;"	m	struct:magic
+required_argument	mygetopt.h	48;"	d
+rm_len	file.h	/^		size_t rm_len;		\/* match length *\/$/;"	m	struct:magic_set::__anon6
+s	cdf.c	/^	char s[4];$/;"	m	union:__anon1	file:
+s	file.h	/^		const char *s;		\/* start of search in original source *\/$/;"	m	struct:magic_set::__anon6
+s	file.h	/^	char s[MAXstring];	\/* the search string or regex pattern *\/$/;"	m	union:VALUETYPE
+s_buf	cdf.h	/^			const char *s_buf;$/;"	m	struct:__anon28::__anon29::__anon30
+s_len	cdf.h	/^			uint32_t s_len;$/;"	m	struct:__anon28::__anon29::__anon30
+s_len	file.h	/^		size_t s_len;		\/* length of search region *\/$/;"	m	struct:magic_set::__anon6
+sat_len	cdf.h	/^	size_t sat_len;$/;"	m	struct:__anon21
+sat_tab	cdf.h	/^	cdf_secid_t *sat_tab;$/;"	m	struct:__anon21
+sd_class	cdf.h	/^	cdf_classid_t	sd_class;$/;"	m	struct:__anon26
+sd_offset	cdf.h	/^	uint32_t	sd_offset;$/;"	m	struct:__anon26
+search	file.h	/^	} search;$/;"	m	struct:magic_set	typeref:struct:magic_set::__anon6
+set_test_type	apprentice.c	/^set_test_type(struct magic *mstart, struct magic *m)$/;"	f
+sh_addr	readelf.h	/^    Elf32_Addr	sh_addr;$/;"	m	struct:__anon12
+sh_addr	readelf.h	/^    Elf64_Addr	sh_addr;$/;"	m	struct:__anon13
+sh_addralign	readelf.h	/^    Elf32_Word	sh_addralign;$/;"	m	struct:__anon12
+sh_addralign	readelf.h	/^    Elf64_Off	sh_addralign;$/;"	m	struct:__anon13
+sh_entsize	readelf.h	/^    Elf32_Word	sh_entsize;$/;"	m	struct:__anon12
+sh_entsize	readelf.h	/^    Elf64_Off	sh_entsize;$/;"	m	struct:__anon13
+sh_flags	readelf.h	/^    Elf32_Word	sh_flags;$/;"	m	struct:__anon12
+sh_flags	readelf.h	/^    Elf64_Off	sh_flags;$/;"	m	struct:__anon13
+sh_info	readelf.h	/^    Elf32_Word	sh_info;$/;"	m	struct:__anon12
+sh_info	readelf.h	/^    Elf64_Word	sh_info;$/;"	m	struct:__anon13
+sh_len	cdf.h	/^	uint32_t	sh_len;$/;"	m	struct:__anon27
+sh_link	readelf.h	/^    Elf32_Word	sh_link;$/;"	m	struct:__anon12
+sh_link	readelf.h	/^    Elf64_Word	sh_link;$/;"	m	struct:__anon13
+sh_name	readelf.h	/^    Elf32_Word	sh_name;$/;"	m	struct:__anon12
+sh_name	readelf.h	/^    Elf64_Word	sh_name;$/;"	m	struct:__anon13
+sh_offset	readelf.h	/^    Elf32_Off	sh_offset;$/;"	m	struct:__anon12
+sh_offset	readelf.h	/^    Elf64_Off	sh_offset;$/;"	m	struct:__anon13
+sh_properties	cdf.h	/^	uint32_t	sh_properties;$/;"	m	struct:__anon27
+sh_size	readelf.h	/^    Elf32_Word	sh_size;$/;"	m	struct:__anon12
+sh_size	readelf.h	/^    Elf64_Off	sh_size;$/;"	m	struct:__anon13
+sh_type	readelf.h	/^    Elf32_Word	sh_type;$/;"	m	struct:__anon12
+sh_type	readelf.h	/^    Elf64_Word	sh_type;$/;"	m	struct:__anon13
+si_byte_order	cdf.h	/^	uint16_t	si_byte_order;$/;"	m	struct:__anon25
+si_class	cdf.h	/^	cdf_classid_t	si_class;$/;"	m	struct:__anon25
+si_count	cdf.h	/^	uint32_t	si_count;$/;"	m	struct:__anon25
+si_os	cdf.h	/^	uint16_t	si_os;$/;"	m	struct:__anon25
+si_os_version	cdf.h	/^	uint16_t	si_os_version;$/;"	m	struct:__anon25
+si_zero	cdf.h	/^	uint16_t	si_zero;$/;"	m	struct:__anon25
+silent	compress.c	/^	int silent;$/;"	m	struct:__anon32	file:
+size	tar.h	/^		char	size[12];$/;"	m	struct:record::header
+sprintf_string	vasprintf.c	/^  char *       sprintf_string;$/;"	m	struct:__anon3	file:
+src_string	vasprintf.c	/^  const char * src_string;        \/* current position into intput string *\/$/;"	m	struct:__anon3	file:
+sread	compress.c	/^sread(int fd, void *buf, size_t n, int canbepipe __attribute__ ((unused)))$/;"	f
+sst_dirlen	cdf.h	/^	size_t sst_dirlen;$/;"	m	struct:__anon23
+sst_len	cdf.h	/^	size_t sst_len;$/;"	m	struct:__anon23
+sst_tab	cdf.h	/^	void *sst_tab;$/;"	m	struct:__anon23
+str_flags	file.h	280;"	d
+str_range	file.h	279;"	d
+strerror	file.h	453;"	d
+string_modifier_check	apprentice.c	/^string_modifier_check(struct magic_set *ms, struct magic *m)$/;"	f
+strlcat	strlcat.c	/^strlcat(char *dst, const char *src, size_t siz)$/;"	f
+strlcpy	strlcpy.c	/^strlcpy(char *dst, const char *src, size_t siz)$/;"	f
+strndup	softmagic.c	/^strndup(const char *str, size_t n)$/;"	f
+strtoul	file.h	458;"	d
+swap2	apprentice.c	/^swap2(uint16_t sv)$/;"	f
+swap4	apprentice.c	/^swap4(uint32_t sv)$/;"	f
+swap8	apprentice.c	/^swap8(uint64_t sv)$/;"	f
+swrite	compress.c	/^swrite(int fd, const void *buf, size_t n)$/;"	f
+tartype	is_tar.c	/^static const char tartype[][32] = {$/;"	v	file:
+text_chars	encoding.c	/^private char text_chars[256] = {$/;"	v
+timespec	cdf.h	40;"	d
+timespec	cdf.h	44;"	d
+trim_nuls	ascmagic.c	/^trim_nuls(const unsigned char *buf, size_t nbytes)$/;"	f
+tv_nsec	cdf.h	41;"	d
+tv_nsec	cdf.h	45;"	d
+type	apprentice.c	/^	const int type;$/;"	m	struct:type_tbl_s	file:
+type	file.h	/^	uint8_t type;		\/* comparison type (FILE_*) *\/$/;"	m	struct:magic
+type_s	vasprintf.c	/^static int type_s(xprintf_struct *s, int width, int prec,$/;"	f	file:
+type_tbl	apprentice.c	/^} type_tbl[] = {$/;"	v	typeref:struct:type_tbl_s	file:
+type_tbl_s	apprentice.c	/^static const struct type_tbl_s {$/;"	s	file:
+u	cdf.c	/^	uint32_t u;$/;"	m	union:__anon1	file:
+uid	tar.h	/^		char	uid[8];$/;"	m	struct:record::header
+uint16_t	config.h	/^typedef unsigned short uint16_t;$/;"	t
+uint32_t	config.h	/^typedef unsigned int uint32_t;$/;"	t
+uint64_t	config.h	/^typedef unsigned long long uint64_t;$/;"	t
+uint64_t	config.h	/^typedef unsigned long uint64_t;$/;"	t
+uint8_t	config.h	/^typedef unsigned char uint8_t;$/;"	t
+uname	tar.h	/^		char	uname[TUNMLEN];$/;"	m	struct:record::header
+uncompressbuf	compress.c	/^uncompressbuf(struct magic_set *ms, int fd, size_t method,$/;"	f
+uncompressgzipped	compress.c	/^uncompressgzipped(struct magic_set *ms, const unsigned char *old,$/;"	f
+unichar	file.h	/^typedef unsigned long unichar;$/;"	t
+unreadable_info	magic.c	/^unreadable_info(struct magic_set *ms, mode_t md, const char *file)$/;"	f
+us	file.h	/^	unsigned char us[MAXstring];$/;"	m	union:VALUETYPE
+usg_hdr	apprentice.c	/^private const char usg_hdr[] = "cont\\toffset\\ttype\\topcode\\tmask\\tvalue\\tdesc";$/;"	v
+usual_char	vasprintf.c	/^static int usual_char(xprintf_struct * s)$/;"	f	file:
+v	cdf.c	/^	uint32_t v;$/;"	m	struct:__anon2	file:
+val	mygetopt.h	/^	int val;$/;"	m	struct:option
+vallen	file.h	/^	uint8_t vallen;		\/* length of string value, if any *\/$/;"	m	struct:magic
+value	file.h	/^	union VALUETYPE value;	\/* either number or string *\/$/;"	m	struct:magic	typeref:union:magic::VALUETYPE
+vargs	vasprintf.c	/^  va_list      vargs;             \/* pointer to current position into vargs *\/$/;"	m	struct:__anon3	file:
+vasprintf	vasprintf.c	/^int vasprintf(char **ptr, const char *format_string, va_list vargs)$/;"	f
+vn	cdf.c	/^} vn[] = {$/;"	v	typeref:struct:__anon2	file:
+xcap_addr	readelf.c	194;"	d	file:
+xcap_sizeof	readelf.c	197;"	d	file:
+xcap_tag	readelf.c	200;"	d	file:
+xcap_val	readelf.c	203;"	d	file:
+xnh_addr	readelf.c	173;"	d	file:
+xnh_descsz	readelf.c	188;"	d	file:
+xnh_namesz	readelf.c	185;"	d	file:
+xnh_sizeof	readelf.c	179;"	d	file:
+xnh_type	readelf.c	182;"	d	file:
+xph_addr	readelf.c	153;"	d	file:
+xph_align	readelf.c	165;"	d	file:
+xph_filesz	readelf.c	170;"	d	file:
+xph_memsz	readelf.c	176;"	d	file:
+xph_offset	readelf.c	162;"	d	file:
+xph_sizeof	readelf.c	156;"	d	file:
+xph_type	readelf.c	159;"	d	file:
+xprintf_struct	vasprintf.c	/^} xprintf_struct;$/;"	t	typeref:struct:__anon3	file:
+xsh_addr	readelf.c	138;"	d	file:
+xsh_offset	readelf.c	147;"	d	file:
+xsh_size	readelf.c	144;"	d	file:
+xsh_sizeof	readelf.c	141;"	d	file:
+xsh_type	readelf.c	150;"	d	file:

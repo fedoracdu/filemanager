@@ -1,6 +1,9 @@
 package com.example.filemanager;
 
 import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -11,12 +14,15 @@ import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.ClipboardManager;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.support.v4.widget.DrawerLayout;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
@@ -25,11 +31,11 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;
+import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.AdapterView.OnItemLongClickListener;
-import android.widget.AbsListView;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
@@ -75,25 +81,91 @@ public class MainActivity extends Activity implements
 	
 	private SharedPreferences sharedPreferences;
 	
+	private ProgressDialog progressDialog;
+	
 	private static String hideFileKey = "hidefile";
 	
+	private static final int INIT_MAGIC_MSG = 1;
+	private static final int UPDATE_LV_MSG = 2;
+	
+	public native int delFile(String fileName);
+	public native int initMagic(String fileName);
+	public native String getFileType(String fileName);
+	public native int uninitMagic();
 	static {
 		System.loadLibrary("file-operation");
 	}
 	
-	public native int delFile(String fileName);
+	private void createMagicFile()
+	{
+		String tmp = homePath.getPath() + "/magicfile";
+		File file = new File(tmp);
+		if (false == file.exists())
+			file.mkdir();
+		tmp += "/magic.mgc";
+		file = new File(tmp);
+		if (file.exists())
+			return ;
+		
+		try {
+			InputStream is = getAssets().open("magic.mgc");
+			FileOutputStream fileOutputStream = new FileOutputStream(file);
+			byte[] buffer = new byte[512];
+			while (true) {
+				int len = is.read(buffer);
+				if (-1 == len)
+					break;
+				fileOutputStream.write(buffer);
+			}
+			is.close();
+			fileOutputStream.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	@SuppressLint("HandlerLeak")
+	private Handler mHandler = new Handler() {
+		public void handleMessage(Message msg)
+		{
+			switch (msg.what) {
+			case INIT_MAGIC_MSG:
+				createMagicFile();
+				initMagic(homePath.getPath() + "/magicfile" + "/magic.mgc");
+				updateListByFile(currentPath);
+				itemAdapter.notifyDataSetChanged();
+				break;
+			
+			case UPDATE_LV_MSG:
+				progressDialog.dismiss();
+				
+				itemAdapter.notifyDataSetChanged();
+				
+				Bundle bundle = msg.getData();
+				String path = bundle.getString("path");
+				for (int i = 0; i < positionList.size(); i++) {
+					HashMap<String, Integer> map = positionList.get(i);
+					if (map.containsKey(path)) {
+						mListView.setSelectionFromTop(map.get(path), 0);
+					}
+				}
+				break;
+				
+			default:
+				break;
+			}
+		}
+	};
 	
 	public class myAdapter extends SimpleAdapter
 	{	
 		public myAdapter(Context context, List<? extends Map<String, ?>> data,
 				int resource, String[] from, int[] to) {
 			super(context, data, resource, from, to);
-			// TODO Auto-generated constructor stub
 		}
 
 		@Override
 		public View getView(int position, View convertView, ViewGroup parent) {
-			// TODO Auto-generated method stub
 			View view;
 			
 			view =  super.getView(position, convertView, parent);
@@ -113,6 +185,70 @@ public class MainActivity extends Activity implements
 			return view;
 		}
 		
+	}
+	
+	public class updateListViewThread extends Thread
+	{
+		File file;
+		
+		public updateListViewThread(File file)
+		{
+			this.file = file;
+		}
+		
+		@Override
+		public void run()
+		{
+			updateListByFile(file);
+			
+			Message msg = new Message();
+			msg.what = UPDATE_LV_MSG;
+			
+			Bundle bundle = new Bundle();
+			bundle.putSerializable("path", file.getPath());
+			msg.setData(bundle);
+			mHandler.sendMessage(msg);
+		}
+	}
+	
+	private void updateListView(File file)
+	{
+		if (null == progressDialog) {
+			progressDialog = new ProgressDialog(MainActivity.this);
+			progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
+			progressDialog.setTitle("载入中");
+			progressDialog.setMessage("文件类型检测中...");
+			progressDialog.setCancelable(false);
+		}
+		
+		if (!file.isDirectory())
+			return ;
+		
+		File[] files = file.listFiles();
+		if (null == files) {
+			Toast.makeText(getApplicationContext(), "directory " + file.getPath() + " permission denied", Toast.LENGTH_SHORT).show();
+			return ;
+		}
+		
+		if (files.length < 5) {
+			updateListByFile(file);
+			itemAdapter.notifyDataSetChanged();
+			
+			for (int i = 0; i < positionList.size(); i++) {
+				HashMap<String, Integer> map = positionList.get(i);
+				String path = file.getPath();
+				if (map.containsKey(path)) {
+					mListView.setSelectionFromTop(map.get(path), 0);
+				}
+			}
+			
+			return ;
+		}
+		
+		progressDialog.show();
+		
+		updateListViewThread thread = new updateListViewThread(file);
+		thread.start();
 	}
 	
 	@SuppressLint("UseSparseArrays")
@@ -187,7 +323,8 @@ public class MainActivity extends Activity implements
 					itemAdapter.notifyDataSetChanged();
 				} else {
 					File file = new File(absPathList.get(position));
-					updateListByFile(file);
+					
+					updateListView(file);
 				}
 			}
 		});
@@ -197,8 +334,6 @@ public class MainActivity extends Activity implements
 			@Override
 			public boolean onItemLongClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				// TODO Auto-generated method stub
-				
 				selectStatus.put(position, true);
 				displayCheckBox(true);
 				
@@ -211,7 +346,6 @@ public class MainActivity extends Activity implements
 			
 			@Override
 			public void onScrollStateChanged(AbsListView arg0, int arg1) {
-				// TODO Auto-generated method stub
 				int position = arg0.getFirstVisiblePosition();
 				HashMap<String, Integer> map = null;
 				for (int i = 0; i < positionList.size(); i++) {
@@ -228,13 +362,11 @@ public class MainActivity extends Activity implements
 			
 			@Override
 			public void onScroll(AbsListView arg0, int arg1, int arg2, int arg3) {
-				// TODO Auto-generated method stub
-				
 			}
 		});
 		
 	}
-	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		
@@ -249,6 +381,17 @@ public class MainActivity extends Activity implements
 				(DrawerLayout) findViewById(R.id.drawer_layout));
 		
 		init();
+		
+		new Thread() {
+
+			@Override
+			public void run() {
+				Message msg = new Message();
+				msg.what = INIT_MAGIC_MSG;
+				
+				mHandler.sendMessage(msg);
+			}
+		}.start();
 	}
 
 	@Override
@@ -269,7 +412,7 @@ public class MainActivity extends Activity implements
 				currentPath = new File(newPath);
 			}
 				
-			updateListByFile(currentPath);
+			updateListView(currentPath);
 		}
 	}
 
@@ -294,9 +437,6 @@ public class MainActivity extends Activity implements
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		if (!mNavigationDrawerFragment.isDrawerOpen()) {
-			// Only show items in the action bar relevant to this screen
-			// if the drawer is not showing. Otherwise, let the drawer
-			// decide what to show in the action bar.
 			getMenuInflater().inflate(R.menu.main, menu);
 			restoreActionBar();
 			return true;
@@ -327,7 +467,7 @@ public class MainActivity extends Activity implements
 						else {
 							displayHideFile = false;
 						}
-						updateListByFile(currentPath);
+						updateListView(currentPath);
 						
 						Editor editor = sharedPreferences.edit();
 						editor.putBoolean(hideFileKey, displayHideFile);
@@ -348,11 +488,12 @@ public class MainActivity extends Activity implements
 						}
 					}
 				
-				updateListByFile(currentPath);
+				updateListView(currentPath);
 				
 				break;
 			
 			case R.id.exit:
+				uninitMagic();
 				super.onBackPressed();
 				
 				break;
@@ -364,6 +505,7 @@ public class MainActivity extends Activity implements
 				final TextView absPathTv = (TextView)layout.findViewById(R.id.abs_path_tv);
 				TextView fileSizeTv = (TextView)layout.findViewById(R.id.file_size_tv);
 				TextView lastModifiedTv = (TextView)layout.findViewById(R.id.file_last_modified_tv);
+				TextView fileTypeTView = (TextView)layout.findViewById(R.id.file_type_tv);
 				Button copyButton = (Button)layout.findViewById(R.id.copy_abs_path_bt);
 				Boolean fileChoosen = false;
 				
@@ -388,8 +530,9 @@ public class MainActivity extends Activity implements
 							SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 						
 							lastModifiedTv.setText("最后修改时间: " + format.format(lastModified));
+							fileTypeTView.setText("文件类型: " + getFileType(absPathList.get(i)));
 						} catch (Exception e) {
-						// TODO: handle exception
+							Toast.makeText(getApplicationContext(), "获取属性失败",Toast.LENGTH_SHORT).show();
 						}
 						break;
 					}
@@ -403,7 +546,6 @@ public class MainActivity extends Activity implements
 					@SuppressWarnings("deprecation")
 					@Override
 					public void onClick(View arg0) {
-						// TODO Auto-generated method stub
 						String path = absPathTv.getText().toString();
 						path = path.replace("绝对路径: ", "");
 						ClipboardManager clipboardManager = (ClipboardManager)getApplication().getSystemService(Context.CLIPBOARD_SERVICE);
@@ -417,7 +559,7 @@ public class MainActivity extends Activity implements
 			
 			case R.id.refresh:
 				
-				updateListByFile(currentPath);
+				updateListView(currentPath);
 				
 				break;
 			
@@ -429,11 +571,15 @@ public class MainActivity extends Activity implements
 	}
 
 	@Override
+	protected void onDestroy() {
+		uninitMagic();
+		super.onDestroy();
+	}
+	@Override
 	public void onNavigationDrawerItemSelected(int position) {
 		switch (position) {
 		case 0:
 			mTitle = getString(R.string.home_path);
-			updateListByFile(currentPath);
 			break;
 
 		case 1:
@@ -451,47 +597,43 @@ public class MainActivity extends Activity implements
 	
 	public void updateListByFile(File path)
 	{
-		if (null == path || !path.exists() || !path.isDirectory())
-			return ;
-		
 		list.clear();
 		absPathList.clear();
 		selectStatus.clear();
 		
 		currentPath = path;
 		
-		try {
-			int		idx = 0;
-			File[] files = path.listFiles();
-				
-			for (int lp = 0; lp < files.length; lp++) {
-				String[] pathSplit = files[lp].getPath().split("/");
-				HashMap<String, Object> map = new HashMap<String, Object>();
-				String fileName = pathSplit[pathSplit.length - 1];
-				if (!displayHideFile && fileName.startsWith("."))
-					continue;
-				
-				map.put("text", fileName);
-				if (files[lp].isDirectory()) {
-					map.put("image", R.drawable.ic_folder);
-				} else {
-					map.put("image", R.drawable.ic_text);
-				}
-				list.add(map);
-				absPathList.put(idx, files[lp].getPath());
-				selectStatus.put(idx++, false);
-			}
-		} catch (Exception e) {
-			Toast.makeText(getApplicationContext(), path.getPath() + " permission denied", Toast.LENGTH_SHORT).show();
+		int		idx = 0;
+		File[] files = path.listFiles();
+		
+		if (null == files) {
+			return ;
 		}
 		
-		itemAdapter.notifyDataSetChanged();
-		
-		for (int i = 0; i < positionList.size(); i++) {
-			HashMap<String, Integer> map = positionList.get(i);
-			if (map.containsKey(path.getPath())) {
-				mListView.setSelectionFromTop(map.get(path.getPath()), 0);
+		for (int lp = 0; lp < files.length; lp++) {
+			String[] pathSplit = files[lp].getPath().split("/");
+			HashMap<String, Object> map = new HashMap<String, Object>();
+			String fileName = pathSplit[pathSplit.length - 1];
+			if (!displayHideFile && fileName.startsWith("."))
+				continue;
+				
+			map.put("text", fileName);
+			if (files[lp].isDirectory()) {
+				map.put("image", R.drawable.ic_folder);
+			} else {
+				String fileType = getFileType(files[lp].getPath());
+				if (fileType.contains("Audio"))
+					map.put("image", R.drawable.ic_audio);
+				else if (fileType.contains("JPEG") || fileType.contains("JPG"))
+					map.put("image", R.drawable.ic_jpeg);
+				else if (fileType.contains("PNG"))
+					map.put("image", R.drawable.ic_png);
+				else
+					map.put("image", R.drawable.ic_text);
 			}
+			list.add(map);
+			absPathList.put(idx, files[lp].getPath());
+			selectStatus.put(idx++, false);
 		}
 		
 		return ;
@@ -517,6 +659,7 @@ public class MainActivity extends Activity implements
 		
 		return ;
 	}
+	
 	
 	public void displayCheckBox(Boolean visible)
 	{
